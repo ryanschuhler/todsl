@@ -1,0 +1,2471 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+2 info using npm@2.8.4
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies loading dependencies from /home/ryan/Documents/the-outdoors-life-theme/package.json
+6 warn package.json the-outdoors-life@0.0.0 No description
+7 warn package.json the-outdoors-life@0.0.0 No repository field.
+8 warn package.json the-outdoors-life@0.0.0 No README data
+9 verbose install where, deps [ '/home/ryan/Documents/the-outdoors-life-theme',
+9 verbose install   [ 'async',
+9 verbose install     'del',
+9 verbose install     'fs-extra',
+9 verbose install     'gulp',
+9 verbose install     'gulp-add-src',
+9 verbose install     'gulp-changed',
+9 verbose install     'gulp-debug',
+9 verbose install     'gulp-load-plugins',
+9 verbose install     'gulp-plumber',
+9 verbose install     'gulp-rename',
+9 verbose install     'gulp-sourcemaps',
+9 verbose install     'gulp-storage',
+9 verbose install     'gulp-war',
+9 verbose install     'gulp-zip',
+9 verbose install     'inquirer',
+9 verbose install     'liferay-theme-mixins',
+9 verbose install     'liferay-theme-styled',
+9 verbose install     'liferay-theme-unstyled',
+9 verbose install     'lodash',
+9 verbose install     'minimist',
+9 verbose install     'run-sequence',
+9 verbose install     'gulp-ruby-sass' ] ]
+10 verbose install where, peers [ '/home/ryan/Documents/the-outdoors-life-theme', [] ]
+11 verbose installManyTop reading for lifecycle /home/ryan/Documents/the-outdoors-life-theme/package.json
+12 info preinstall the-outdoors-life@0.0.0
+13 verbose readDependencies loading dependencies from /home/ryan/Documents/the-outdoors-life-theme/package.json
+14 silly cache add args [ 'async@^0.9.0', null ]
+15 verbose cache add spec async@^0.9.0
+16 silly cache add args [ 'del@^1.1.1', null ]
+17 verbose cache add spec del@^1.1.1
+18 silly cache add parsed spec { raw: 'async@^0.9.0',
+18 silly cache add   scope: null,
+18 silly cache add   name: 'async',
+18 silly cache add   rawSpec: '^0.9.0',
+18 silly cache add   spec: '>=0.9.0 <0.10.0',
+18 silly cache add   type: 'range' }
+19 silly addNamed async@>=0.9.0 <0.10.0
+20 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for async
+21 silly addNameRange { name: 'async', range: '>=0.9.0 <0.10.0', hasData: false }
+22 silly mapToRegistry name async
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/async
+26 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+27 silly cache add parsed spec { raw: 'del@^1.1.1',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'del',
+27 silly cache add   rawSpec: '^1.1.1',
+27 silly cache add   spec: '>=1.1.1 <2.0.0',
+27 silly cache add   type: 'range' }
+28 silly addNamed del@>=1.1.1 <2.0.0
+29 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for del
+30 silly addNameRange { name: 'del', range: '>=1.1.1 <2.0.0', hasData: false }
+31 silly mapToRegistry name del
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/del
+35 verbose addNameRange registry:https://registry.npmjs.org/del not in flight; fetching
+36 silly cache add args [ 'gulp-add-src@^0.2.0', null ]
+37 verbose cache add spec gulp-add-src@^0.2.0
+38 silly cache add parsed spec { raw: 'gulp-add-src@^0.2.0',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'gulp-add-src',
+38 silly cache add   rawSpec: '^0.2.0',
+38 silly cache add   spec: '>=0.2.0 <0.3.0',
+38 silly cache add   type: 'range' }
+39 silly addNamed gulp-add-src@>=0.2.0 <0.3.0
+40 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for gulp-add-src
+41 silly addNameRange { name: 'gulp-add-src', range: '>=0.2.0 <0.3.0', hasData: false }
+42 silly mapToRegistry name gulp-add-src
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/gulp-add-src
+46 verbose addNameRange registry:https://registry.npmjs.org/gulp-add-src not in flight; fetching
+47 silly cache add args [ 'fs-extra@^0.13.0', null ]
+48 verbose cache add spec fs-extra@^0.13.0
+49 silly cache add parsed spec { raw: 'fs-extra@^0.13.0',
+49 silly cache add   scope: null,
+49 silly cache add   name: 'fs-extra',
+49 silly cache add   rawSpec: '^0.13.0',
+49 silly cache add   spec: '>=0.13.0 <0.14.0',
+49 silly cache add   type: 'range' }
+50 silly addNamed fs-extra@>=0.13.0 <0.14.0
+51 verbose addNamed ">=0.13.0 <0.14.0" is a valid semver range for fs-extra
+52 silly addNameRange { name: 'fs-extra', range: '>=0.13.0 <0.14.0', hasData: false }
+53 silly mapToRegistry name fs-extra
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+57 verbose addNameRange registry:https://registry.npmjs.org/fs-extra not in flight; fetching
+58 silly cache add args [ 'gulp@^3.8.10', null ]
+59 verbose cache add spec gulp@^3.8.10
+60 silly cache add parsed spec { raw: 'gulp@^3.8.10',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'gulp',
+60 silly cache add   rawSpec: '^3.8.10',
+60 silly cache add   spec: '>=3.8.10 <4.0.0',
+60 silly cache add   type: 'range' }
+61 silly addNamed gulp@>=3.8.10 <4.0.0
+62 verbose addNamed ">=3.8.10 <4.0.0" is a valid semver range for gulp
+63 silly addNameRange { name: 'gulp', range: '>=3.8.10 <4.0.0', hasData: false }
+64 silly mapToRegistry name gulp
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/gulp
+68 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+69 silly cache add args [ 'gulp-changed@^1.1.1', null ]
+70 verbose cache add spec gulp-changed@^1.1.1
+71 silly cache add parsed spec { raw: 'gulp-changed@^1.1.1',
+71 silly cache add   scope: null,
+71 silly cache add   name: 'gulp-changed',
+71 silly cache add   rawSpec: '^1.1.1',
+71 silly cache add   spec: '>=1.1.1 <2.0.0',
+71 silly cache add   type: 'range' }
+72 silly addNamed gulp-changed@>=1.1.1 <2.0.0
+73 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for gulp-changed
+74 silly addNameRange { name: 'gulp-changed', range: '>=1.1.1 <2.0.0', hasData: false }
+75 silly mapToRegistry name gulp-changed
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/gulp-changed
+79 verbose addNameRange registry:https://registry.npmjs.org/gulp-changed not in flight; fetching
+80 silly cache add args [ 'gulp-debug@^2.0.0', null ]
+81 verbose cache add spec gulp-debug@^2.0.0
+82 silly cache add parsed spec { raw: 'gulp-debug@^2.0.0',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'gulp-debug',
+82 silly cache add   rawSpec: '^2.0.0',
+82 silly cache add   spec: '>=2.0.0 <3.0.0',
+82 silly cache add   type: 'range' }
+83 silly addNamed gulp-debug@>=2.0.0 <3.0.0
+84 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for gulp-debug
+85 silly addNameRange { name: 'gulp-debug', range: '>=2.0.0 <3.0.0', hasData: false }
+86 silly mapToRegistry name gulp-debug
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/gulp-debug
+90 verbose addNameRange registry:https://registry.npmjs.org/gulp-debug not in flight; fetching
+91 silly cache add args [ 'gulp-load-plugins@^0.8.0', null ]
+92 verbose cache add spec gulp-load-plugins@^0.8.0
+93 silly cache add parsed spec { raw: 'gulp-load-plugins@^0.8.0',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'gulp-load-plugins',
+93 silly cache add   rawSpec: '^0.8.0',
+93 silly cache add   spec: '>=0.8.0 <0.9.0',
+93 silly cache add   type: 'range' }
+94 silly addNamed gulp-load-plugins@>=0.8.0 <0.9.0
+95 verbose addNamed ">=0.8.0 <0.9.0" is a valid semver range for gulp-load-plugins
+96 silly addNameRange { name: 'gulp-load-plugins',
+96 silly addNameRange   range: '>=0.8.0 <0.9.0',
+96 silly addNameRange   hasData: false }
+97 silly mapToRegistry name gulp-load-plugins
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/gulp-load-plugins
+101 verbose addNameRange registry:https://registry.npmjs.org/gulp-load-plugins not in flight; fetching
+102 silly cache add args [ 'gulp-plumber@^0.6.6', null ]
+103 verbose cache add spec gulp-plumber@^0.6.6
+104 silly cache add parsed spec { raw: 'gulp-plumber@^0.6.6',
+104 silly cache add   scope: null,
+104 silly cache add   name: 'gulp-plumber',
+104 silly cache add   rawSpec: '^0.6.6',
+104 silly cache add   spec: '>=0.6.6 <0.7.0',
+104 silly cache add   type: 'range' }
+105 silly addNamed gulp-plumber@>=0.6.6 <0.7.0
+106 verbose addNamed ">=0.6.6 <0.7.0" is a valid semver range for gulp-plumber
+107 silly addNameRange { name: 'gulp-plumber', range: '>=0.6.6 <0.7.0', hasData: false }
+108 silly mapToRegistry name gulp-plumber
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/gulp-plumber
+112 verbose addNameRange registry:https://registry.npmjs.org/gulp-plumber not in flight; fetching
+113 silly cache add args [ 'gulp-rename@^1.2.0', null ]
+114 verbose cache add spec gulp-rename@^1.2.0
+115 silly cache add parsed spec { raw: 'gulp-rename@^1.2.0',
+115 silly cache add   scope: null,
+115 silly cache add   name: 'gulp-rename',
+115 silly cache add   rawSpec: '^1.2.0',
+115 silly cache add   spec: '>=1.2.0 <2.0.0',
+115 silly cache add   type: 'range' }
+116 silly addNamed gulp-rename@>=1.2.0 <2.0.0
+117 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for gulp-rename
+118 silly addNameRange { name: 'gulp-rename', range: '>=1.2.0 <2.0.0', hasData: false }
+119 silly mapToRegistry name gulp-rename
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry uri https://registry.npmjs.org/gulp-rename
+123 verbose addNameRange registry:https://registry.npmjs.org/gulp-rename not in flight; fetching
+124 silly cache add args [ 'gulp-sourcemaps@^1.2.8', null ]
+125 verbose cache add spec gulp-sourcemaps@^1.2.8
+126 silly cache add parsed spec { raw: 'gulp-sourcemaps@^1.2.8',
+126 silly cache add   scope: null,
+126 silly cache add   name: 'gulp-sourcemaps',
+126 silly cache add   rawSpec: '^1.2.8',
+126 silly cache add   spec: '>=1.2.8 <2.0.0',
+126 silly cache add   type: 'range' }
+127 silly addNamed gulp-sourcemaps@>=1.2.8 <2.0.0
+128 verbose addNamed ">=1.2.8 <2.0.0" is a valid semver range for gulp-sourcemaps
+129 silly addNameRange { name: 'gulp-sourcemaps',
+129 silly addNameRange   range: '>=1.2.8 <2.0.0',
+129 silly addNameRange   hasData: false }
+130 silly mapToRegistry name gulp-sourcemaps
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry uri https://registry.npmjs.org/gulp-sourcemaps
+134 verbose addNameRange registry:https://registry.npmjs.org/gulp-sourcemaps not in flight; fetching
+135 silly cache add args [ 'gulp-storage@^1.0.6', null ]
+136 verbose cache add spec gulp-storage@^1.0.6
+137 silly cache add parsed spec { raw: 'gulp-storage@^1.0.6',
+137 silly cache add   scope: null,
+137 silly cache add   name: 'gulp-storage',
+137 silly cache add   rawSpec: '^1.0.6',
+137 silly cache add   spec: '>=1.0.6 <2.0.0',
+137 silly cache add   type: 'range' }
+138 silly addNamed gulp-storage@>=1.0.6 <2.0.0
+139 verbose addNamed ">=1.0.6 <2.0.0" is a valid semver range for gulp-storage
+140 silly addNameRange { name: 'gulp-storage', range: '>=1.0.6 <2.0.0', hasData: false }
+141 silly mapToRegistry name gulp-storage
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry uri https://registry.npmjs.org/gulp-storage
+145 verbose addNameRange registry:https://registry.npmjs.org/gulp-storage not in flight; fetching
+146 silly cache add args [ 'gulp-war@0.0.1', null ]
+147 verbose cache add spec gulp-war@0.0.1
+148 silly cache add parsed spec { raw: 'gulp-war@0.0.1',
+148 silly cache add   scope: null,
+148 silly cache add   name: 'gulp-war',
+148 silly cache add   rawSpec: '0.0.1',
+148 silly cache add   spec: '0.0.1',
+148 silly cache add   type: 'version' }
+149 silly addNamed gulp-war@0.0.1
+150 verbose addNamed "0.0.1" is a plain semver version for gulp-war
+151 silly mapToRegistry name gulp-war
+152 silly mapToRegistry using default registry
+153 silly mapToRegistry registry https://registry.npmjs.org/
+154 silly mapToRegistry uri https://registry.npmjs.org/gulp-war
+155 verbose addNameVersion registry:https://registry.npmjs.org/gulp-war not in flight; fetching
+156 silly cache add args [ 'gulp-zip@^2.0.2', null ]
+157 verbose cache add spec gulp-zip@^2.0.2
+158 silly cache add parsed spec { raw: 'gulp-zip@^2.0.2',
+158 silly cache add   scope: null,
+158 silly cache add   name: 'gulp-zip',
+158 silly cache add   rawSpec: '^2.0.2',
+158 silly cache add   spec: '>=2.0.2 <3.0.0',
+158 silly cache add   type: 'range' }
+159 silly addNamed gulp-zip@>=2.0.2 <3.0.0
+160 verbose addNamed ">=2.0.2 <3.0.0" is a valid semver range for gulp-zip
+161 silly addNameRange { name: 'gulp-zip', range: '>=2.0.2 <3.0.0', hasData: false }
+162 silly mapToRegistry name gulp-zip
+163 silly mapToRegistry using default registry
+164 silly mapToRegistry registry https://registry.npmjs.org/
+165 silly mapToRegistry uri https://registry.npmjs.org/gulp-zip
+166 verbose addNameRange registry:https://registry.npmjs.org/gulp-zip not in flight; fetching
+167 silly cache add args [ 'inquirer@^0.8.0', null ]
+168 verbose cache add spec inquirer@^0.8.0
+169 silly cache add parsed spec { raw: 'inquirer@^0.8.0',
+169 silly cache add   scope: null,
+169 silly cache add   name: 'inquirer',
+169 silly cache add   rawSpec: '^0.8.0',
+169 silly cache add   spec: '>=0.8.0 <0.9.0',
+169 silly cache add   type: 'range' }
+170 silly addNamed inquirer@>=0.8.0 <0.9.0
+171 verbose addNamed ">=0.8.0 <0.9.0" is a valid semver range for inquirer
+172 silly addNameRange { name: 'inquirer', range: '>=0.8.0 <0.9.0', hasData: false }
+173 silly mapToRegistry name inquirer
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry uri https://registry.npmjs.org/inquirer
+177 verbose addNameRange registry:https://registry.npmjs.org/inquirer not in flight; fetching
+178 silly cache add args [ 'liferay-theme-mixins@^6.2.0', null ]
+179 verbose cache add spec liferay-theme-mixins@^6.2.0
+180 silly cache add parsed spec { raw: 'liferay-theme-mixins@^6.2.0',
+180 silly cache add   scope: null,
+180 silly cache add   name: 'liferay-theme-mixins',
+180 silly cache add   rawSpec: '^6.2.0',
+180 silly cache add   spec: '>=6.2.0 <7.0.0',
+180 silly cache add   type: 'range' }
+181 silly addNamed liferay-theme-mixins@>=6.2.0 <7.0.0
+182 verbose addNamed ">=6.2.0 <7.0.0" is a valid semver range for liferay-theme-mixins
+183 silly addNameRange { name: 'liferay-theme-mixins',
+183 silly addNameRange   range: '>=6.2.0 <7.0.0',
+183 silly addNameRange   hasData: false }
+184 silly mapToRegistry name liferay-theme-mixins
+185 silly mapToRegistry using default registry
+186 silly mapToRegistry registry https://registry.npmjs.org/
+187 silly mapToRegistry uri https://registry.npmjs.org/liferay-theme-mixins
+188 verbose addNameRange registry:https://registry.npmjs.org/liferay-theme-mixins not in flight; fetching
+189 silly cache add args [ 'liferay-theme-styled@^6.2.0', null ]
+190 verbose cache add spec liferay-theme-styled@^6.2.0
+191 silly cache add parsed spec { raw: 'liferay-theme-styled@^6.2.0',
+191 silly cache add   scope: null,
+191 silly cache add   name: 'liferay-theme-styled',
+191 silly cache add   rawSpec: '^6.2.0',
+191 silly cache add   spec: '>=6.2.0 <7.0.0',
+191 silly cache add   type: 'range' }
+192 silly addNamed liferay-theme-styled@>=6.2.0 <7.0.0
+193 verbose addNamed ">=6.2.0 <7.0.0" is a valid semver range for liferay-theme-styled
+194 silly addNameRange { name: 'liferay-theme-styled',
+194 silly addNameRange   range: '>=6.2.0 <7.0.0',
+194 silly addNameRange   hasData: false }
+195 silly mapToRegistry name liferay-theme-styled
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry https://registry.npmjs.org/
+198 silly mapToRegistry uri https://registry.npmjs.org/liferay-theme-styled
+199 verbose addNameRange registry:https://registry.npmjs.org/liferay-theme-styled not in flight; fetching
+200 silly cache add args [ 'liferay-theme-unstyled@^6.2.0', null ]
+201 verbose cache add spec liferay-theme-unstyled@^6.2.0
+202 silly cache add parsed spec { raw: 'liferay-theme-unstyled@^6.2.0',
+202 silly cache add   scope: null,
+202 silly cache add   name: 'liferay-theme-unstyled',
+202 silly cache add   rawSpec: '^6.2.0',
+202 silly cache add   spec: '>=6.2.0 <7.0.0',
+202 silly cache add   type: 'range' }
+203 silly addNamed liferay-theme-unstyled@>=6.2.0 <7.0.0
+204 verbose addNamed ">=6.2.0 <7.0.0" is a valid semver range for liferay-theme-unstyled
+205 silly addNameRange { name: 'liferay-theme-unstyled',
+205 silly addNameRange   range: '>=6.2.0 <7.0.0',
+205 silly addNameRange   hasData: false }
+206 silly mapToRegistry name liferay-theme-unstyled
+207 silly mapToRegistry using default registry
+208 silly mapToRegistry registry https://registry.npmjs.org/
+209 silly mapToRegistry uri https://registry.npmjs.org/liferay-theme-unstyled
+210 verbose addNameRange registry:https://registry.npmjs.org/liferay-theme-unstyled not in flight; fetching
+211 silly cache add args [ 'lodash@^2.4.1', null ]
+212 verbose cache add spec lodash@^2.4.1
+213 silly cache add parsed spec { raw: 'lodash@^2.4.1',
+213 silly cache add   scope: null,
+213 silly cache add   name: 'lodash',
+213 silly cache add   rawSpec: '^2.4.1',
+213 silly cache add   spec: '>=2.4.1 <3.0.0',
+213 silly cache add   type: 'range' }
+214 silly addNamed lodash@>=2.4.1 <3.0.0
+215 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for lodash
+216 silly addNameRange { name: 'lodash', range: '>=2.4.1 <3.0.0', hasData: false }
+217 silly mapToRegistry name lodash
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry uri https://registry.npmjs.org/lodash
+221 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+222 silly cache add args [ 'minimist@^1.1.0', null ]
+223 verbose cache add spec minimist@^1.1.0
+224 silly cache add parsed spec { raw: 'minimist@^1.1.0',
+224 silly cache add   scope: null,
+224 silly cache add   name: 'minimist',
+224 silly cache add   rawSpec: '^1.1.0',
+224 silly cache add   spec: '>=1.1.0 <2.0.0',
+224 silly cache add   type: 'range' }
+225 silly addNamed minimist@>=1.1.0 <2.0.0
+226 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for minimist
+227 silly addNameRange { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: false }
+228 silly mapToRegistry name minimist
+229 silly mapToRegistry using default registry
+230 silly mapToRegistry registry https://registry.npmjs.org/
+231 silly mapToRegistry uri https://registry.npmjs.org/minimist
+232 verbose addNameRange registry:https://registry.npmjs.org/minimist not in flight; fetching
+233 silly cache add args [ 'run-sequence@^1.0.2', null ]
+234 verbose cache add spec run-sequence@^1.0.2
+235 silly cache add parsed spec { raw: 'run-sequence@^1.0.2',
+235 silly cache add   scope: null,
+235 silly cache add   name: 'run-sequence',
+235 silly cache add   rawSpec: '^1.0.2',
+235 silly cache add   spec: '>=1.0.2 <2.0.0',
+235 silly cache add   type: 'range' }
+236 silly addNamed run-sequence@>=1.0.2 <2.0.0
+237 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for run-sequence
+238 silly addNameRange { name: 'run-sequence', range: '>=1.0.2 <2.0.0', hasData: false }
+239 silly mapToRegistry name run-sequence
+240 silly mapToRegistry using default registry
+241 silly mapToRegistry registry https://registry.npmjs.org/
+242 silly mapToRegistry uri https://registry.npmjs.org/run-sequence
+243 verbose addNameRange registry:https://registry.npmjs.org/run-sequence not in flight; fetching
+244 silly cache add args [ 'gulp-ruby-sass@^0.7.1', null ]
+245 verbose cache add spec gulp-ruby-sass@^0.7.1
+246 silly cache add parsed spec { raw: 'gulp-ruby-sass@^0.7.1',
+246 silly cache add   scope: null,
+246 silly cache add   name: 'gulp-ruby-sass',
+246 silly cache add   rawSpec: '^0.7.1',
+246 silly cache add   spec: '>=0.7.1 <0.8.0',
+246 silly cache add   type: 'range' }
+247 silly addNamed gulp-ruby-sass@>=0.7.1 <0.8.0
+248 verbose addNamed ">=0.7.1 <0.8.0" is a valid semver range for gulp-ruby-sass
+249 silly addNameRange { name: 'gulp-ruby-sass',
+249 silly addNameRange   range: '>=0.7.1 <0.8.0',
+249 silly addNameRange   hasData: false }
+250 silly mapToRegistry name gulp-ruby-sass
+251 silly mapToRegistry using default registry
+252 silly mapToRegistry registry https://registry.npmjs.org/
+253 silly mapToRegistry uri https://registry.npmjs.org/gulp-ruby-sass
+254 verbose addNameRange registry:https://registry.npmjs.org/gulp-ruby-sass not in flight; fetching
+255 verbose request uri https://registry.npmjs.org/async
+256 verbose request no auth needed
+257 info attempt registry request try #1 at 22:42:40
+258 verbose request id e19aa91f81713830
+259 verbose etag "2SVBWIXHE3K3WW5EZDD8KV76B"
+260 http request GET https://registry.npmjs.org/async
+261 verbose request uri https://registry.npmjs.org/del
+262 verbose request no auth needed
+263 info attempt registry request try #1 at 22:42:40
+264 verbose etag "CBEIRQ0Y07ITIAW2NRQYKUGS5"
+265 http request GET https://registry.npmjs.org/del
+266 verbose request uri https://registry.npmjs.org/gulp-add-src
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 22:42:40
+269 verbose etag "D526EZL4E9K70IAC9C46VOI35"
+270 http request GET https://registry.npmjs.org/gulp-add-src
+271 verbose request uri https://registry.npmjs.org/fs-extra
+272 verbose request no auth needed
+273 info attempt registry request try #1 at 22:42:40
+274 verbose etag "72W739M2MIKTH0X0YVGD8RH72"
+275 http request GET https://registry.npmjs.org/fs-extra
+276 verbose request uri https://registry.npmjs.org/gulp
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 22:42:40
+279 verbose etag "54T73DUZY6ALTKQURED9TUOAJ"
+280 http request GET https://registry.npmjs.org/gulp
+281 verbose request uri https://registry.npmjs.org/gulp-rename
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 22:42:40
+284 verbose etag "4CNMTJW3WH8UWL9R6SEK8D8CU"
+285 http request GET https://registry.npmjs.org/gulp-rename
+286 verbose request uri https://registry.npmjs.org/gulp-changed
+287 verbose request no auth needed
+288 info attempt registry request try #1 at 22:42:40
+289 verbose etag "4YV5C7DXK845BUF8OY9P2LSTY"
+290 http request GET https://registry.npmjs.org/gulp-changed
+291 verbose request uri https://registry.npmjs.org/gulp-debug
+292 verbose request no auth needed
+293 info attempt registry request try #1 at 22:42:40
+294 verbose etag "5BZHI5DI8KPV5BW2W5XLBUJ3W"
+295 http request GET https://registry.npmjs.org/gulp-debug
+296 verbose request uri https://registry.npmjs.org/gulp-load-plugins
+297 verbose request no auth needed
+298 info attempt registry request try #1 at 22:42:40
+299 verbose etag "62HAIBS2CLZHPXFFCV80259Y5"
+300 http request GET https://registry.npmjs.org/gulp-load-plugins
+301 verbose request uri https://registry.npmjs.org/gulp-plumber
+302 verbose request no auth needed
+303 info attempt registry request try #1 at 22:42:40
+304 verbose etag "9D4J0YHSGNMLVZ0DS4PE9E7QV"
+305 http request GET https://registry.npmjs.org/gulp-plumber
+306 verbose request uri https://registry.npmjs.org/gulp-sourcemaps
+307 verbose request no auth needed
+308 info attempt registry request try #1 at 22:42:40
+309 verbose etag "BDG4L1ZQP2EZKE56NVMVV1YDF"
+310 http request GET https://registry.npmjs.org/gulp-sourcemaps
+311 verbose request uri https://registry.npmjs.org/gulp-storage
+312 verbose request no auth needed
+313 info attempt registry request try #1 at 22:42:40
+314 verbose etag "A01OPZ4I90H41BAGBNI76IDJP"
+315 http request GET https://registry.npmjs.org/gulp-storage
+316 verbose request uri https://registry.npmjs.org/gulp-war
+317 verbose request no auth needed
+318 info attempt registry request try #1 at 22:42:40
+319 verbose etag "2HDY2JGO9W22YM0ET0L8L3QQ6"
+320 http request GET https://registry.npmjs.org/gulp-war
+321 verbose request uri https://registry.npmjs.org/inquirer
+322 verbose request no auth needed
+323 info attempt registry request try #1 at 22:42:40
+324 verbose etag "CH5XRAAC3QZ30Y5ZCHOJC31S6"
+325 http request GET https://registry.npmjs.org/inquirer
+326 verbose request uri https://registry.npmjs.org/gulp-zip
+327 verbose request no auth needed
+328 info attempt registry request try #1 at 22:42:40
+329 verbose etag "DUTN4ZK17AJX2LO5FSAOGZ0KC"
+330 http request GET https://registry.npmjs.org/gulp-zip
+331 verbose request uri https://registry.npmjs.org/liferay-theme-mixins
+332 verbose request no auth needed
+333 info attempt registry request try #1 at 22:42:40
+334 verbose etag "1ISY10CHBUMYPM57WTH8MCKRV"
+335 http request GET https://registry.npmjs.org/liferay-theme-mixins
+336 verbose request uri https://registry.npmjs.org/liferay-theme-styled
+337 verbose request no auth needed
+338 info attempt registry request try #1 at 22:42:40
+339 verbose etag "BVR9RNJCKP5HZBAEAADC370IJ"
+340 http request GET https://registry.npmjs.org/liferay-theme-styled
+341 verbose request uri https://registry.npmjs.org/lodash
+342 verbose request no auth needed
+343 info attempt registry request try #1 at 22:42:40
+344 verbose etag "ASYRR044UXWJYRT0XXMUCNJVM"
+345 http request GET https://registry.npmjs.org/lodash
+346 verbose request uri https://registry.npmjs.org/minimist
+347 verbose request no auth needed
+348 info attempt registry request try #1 at 22:42:40
+349 verbose etag "A1K2IV9LYXN9AZS3JYT6C4WZD"
+350 http request GET https://registry.npmjs.org/minimist
+351 verbose request uri https://registry.npmjs.org/liferay-theme-unstyled
+352 verbose request no auth needed
+353 info attempt registry request try #1 at 22:42:40
+354 verbose etag "8AVK10KGTUXH6D4KHLDOD094G"
+355 http request GET https://registry.npmjs.org/liferay-theme-unstyled
+356 verbose request uri https://registry.npmjs.org/run-sequence
+357 verbose request no auth needed
+358 info attempt registry request try #1 at 22:42:40
+359 verbose etag "7YBSYXOC56X146PDZG3LK6RDY"
+360 http request GET https://registry.npmjs.org/run-sequence
+361 verbose request uri https://registry.npmjs.org/gulp-ruby-sass
+362 verbose request no auth needed
+363 info attempt registry request try #1 at 22:42:40
+364 verbose etag "CGWUA1JIU9QDIVDLMNX569QJB"
+365 http request GET https://registry.npmjs.org/gulp-ruby-sass
+366 http 200 https://registry.npmjs.org/gulp-add-src
+367 silly get cb [ 200,
+367 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+367 silly get     etag: '"62EP4ZDK76V01L8P6JFXMR5JK"',
+367 silly get     'content-type': 'application/json',
+367 silly get     'cache-control': 'max-age=60',
+367 silly get     'content-length': '7917',
+367 silly get     'accept-ranges': 'bytes',
+367 silly get     date: 'Tue, 05 May 2015 05:42:41 GMT',
+367 silly get     via: '1.1 varnish',
+367 silly get     age: '0',
+367 silly get     connection: 'keep-alive',
+367 silly get     'x-served-by': 'cache-lax1428-LAX',
+367 silly get     'x-cache': 'MISS',
+367 silly get     'x-cache-hits': '0',
+367 silly get     'x-timer': 'S1430804561.453980,VS0,VE76',
+367 silly get     vary: 'Accept' } ]
+368 verbose get saving gulp-add-src to /home/ryan/.npm/registry.npmjs.org/gulp-add-src/.cache.json
+369 silly addNameRange number 2 { name: 'gulp-add-src', range: '>=0.2.0 <0.3.0', hasData: true }
+370 silly addNameRange versions [ 'gulp-add-src', [ '0.0.1', '0.1.0', '0.1.1', '0.2.0' ] ]
+371 silly addNamed gulp-add-src@0.2.0
+372 verbose addNamed "0.2.0" is a plain semver version for gulp-add-src
+373 silly cache afterAdd gulp-add-src@0.2.0
+374 verbose afterAdd /home/ryan/.npm/gulp-add-src/0.2.0/package/package.json not in flight; writing
+375 verbose afterAdd /home/ryan/.npm/gulp-add-src/0.2.0/package/package.json written
+376 http 304 https://registry.npmjs.org/gulp-rename
+377 silly get cb [ 304,
+377 silly get   { date: 'Tue, 05 May 2015 05:42:41 GMT',
+377 silly get     via: '1.1 varnish',
+377 silly get     'last-modified': 'Tue, 05 May 2015 05:42:41 GMT',
+377 silly get     'cache-control': 'max-age=60',
+377 silly get     etag: '"4CNMTJW3WH8UWL9R6SEK8D8CU"',
+377 silly get     age: '45',
+377 silly get     connection: 'keep-alive',
+377 silly get     'x-served-by': 'cache-lax1428-LAX',
+377 silly get     'x-cache': 'HIT',
+377 silly get     'x-cache-hits': '1',
+377 silly get     'x-timer': 'S1430804561.957298,VS0,VE0',
+377 silly get     vary: 'Accept' } ]
+378 verbose etag https://registry.npmjs.org/gulp-rename from cache
+379 verbose get saving gulp-rename to /home/ryan/.npm/registry.npmjs.org/gulp-rename/.cache.json
+380 silly addNameRange number 2 { name: 'gulp-rename', range: '>=1.2.0 <2.0.0', hasData: true }
+381 silly addNameRange versions [ 'gulp-rename',
+381 silly addNameRange   [ '0.1.0', '0.2.1', '0.2.2', '1.0.0', '1.1.0', '1.2.0', '1.2.2' ] ]
+382 silly addNamed gulp-rename@1.2.2
+383 verbose addNamed "1.2.2" is a plain semver version for gulp-rename
+384 silly cache afterAdd gulp-rename@1.2.2
+385 verbose afterAdd /home/ryan/.npm/gulp-rename/1.2.2/package/package.json not in flight; writing
+386 verbose afterAdd /home/ryan/.npm/gulp-rename/1.2.2/package/package.json written
+387 http 304 https://registry.npmjs.org/async
+388 silly get cb [ 304,
+388 silly get   { date: 'Tue, 05 May 2015 05:42:42 GMT',
+388 silly get     via: '1.1 varnish',
+388 silly get     'cache-control': 'max-age=60',
+388 silly get     etag: '"2SVBWIXHE3K3WW5EZDD8KV76B"',
+388 silly get     age: '26',
+388 silly get     connection: 'keep-alive',
+388 silly get     'x-served-by': 'cache-dfw1827-DFW',
+388 silly get     'x-cache': 'HIT',
+388 silly get     'x-cache-hits': '165',
+388 silly get     'x-timer': 'S1430804562.027237,VS0,VE0',
+388 silly get     vary: 'Accept' } ]
+389 verbose etag https://registry.npmjs.org/async from cache
+390 verbose get saving async to /home/ryan/.npm/registry.npmjs.org/async/.cache.json
+391 silly addNameRange number 2 { name: 'async', range: '>=0.9.0 <0.10.0', hasData: true }
+392 silly addNameRange versions [ 'async',
+392 silly addNameRange   [ '0.1.0',
+392 silly addNameRange     '0.1.1',
+392 silly addNameRange     '0.1.2',
+392 silly addNameRange     '0.1.3',
+392 silly addNameRange     '0.1.4',
+392 silly addNameRange     '0.1.5',
+392 silly addNameRange     '0.1.6',
+392 silly addNameRange     '0.1.7',
+392 silly addNameRange     '0.1.8',
+392 silly addNameRange     '0.1.9',
+392 silly addNameRange     '0.1.10',
+392 silly addNameRange     '0.1.11',
+392 silly addNameRange     '0.1.12',
+392 silly addNameRange     '0.1.13',
+392 silly addNameRange     '0.1.14',
+392 silly addNameRange     '0.1.15',
+392 silly addNameRange     '0.1.16',
+392 silly addNameRange     '0.1.17',
+392 silly addNameRange     '0.1.18',
+392 silly addNameRange     '0.1.19',
+392 silly addNameRange     '0.1.20',
+392 silly addNameRange     '0.1.21',
+392 silly addNameRange     '0.1.22',
+392 silly addNameRange     '0.2.0',
+392 silly addNameRange     '0.2.1',
+392 silly addNameRange     '0.2.2',
+392 silly addNameRange     '0.2.3',
+392 silly addNameRange     '0.2.4',
+392 silly addNameRange     '0.2.5',
+392 silly addNameRange     '0.2.6',
+392 silly addNameRange     '0.2.7',
+392 silly addNameRange     '0.2.8',
+392 silly addNameRange     '0.2.9',
+392 silly addNameRange     '0.2.10',
+392 silly addNameRange     '0.3.0',
+392 silly addNameRange     '0.4.0',
+392 silly addNameRange     '0.4.1',
+392 silly addNameRange     '0.5.0',
+392 silly addNameRange     '0.6.0',
+392 silly addNameRange     '0.6.1',
+392 silly addNameRange     '0.6.2',
+392 silly addNameRange     '0.7.0',
+392 silly addNameRange     '0.8.0',
+392 silly addNameRange     '0.9.0' ] ]
+393 silly addNamed async@0.9.0
+394 verbose addNamed "0.9.0" is a plain semver version for async
+395 silly cache afterAdd async@0.9.0
+396 verbose afterAdd /home/ryan/.npm/async/0.9.0/package/package.json not in flight; writing
+397 verbose afterAdd /home/ryan/.npm/async/0.9.0/package/package.json written
+398 http 200 https://registry.npmjs.org/gulp-changed
+399 silly get cb [ 200,
+399 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+399 silly get     etag: '"9TTAS8UQBB4MAPL9QC7HY4OIY"',
+399 silly get     'content-type': 'application/json',
+399 silly get     'cache-control': 'max-age=60',
+399 silly get     'content-length': '19834',
+399 silly get     'accept-ranges': 'bytes',
+399 silly get     date: 'Tue, 05 May 2015 05:42:42 GMT',
+399 silly get     via: '1.1 varnish',
+399 silly get     age: '0',
+399 silly get     connection: 'keep-alive',
+399 silly get     'x-served-by': 'cache-lax1428-LAX',
+399 silly get     'x-cache': 'HIT',
+399 silly get     'x-cache-hits': '1',
+399 silly get     'x-timer': 'S1430804561.998143,VS0,VE42',
+399 silly get     vary: 'Accept' } ]
+400 verbose get saving gulp-changed to /home/ryan/.npm/registry.npmjs.org/gulp-changed/.cache.json
+401 silly addNameRange number 2 { name: 'gulp-changed', range: '>=1.1.1 <2.0.0', hasData: true }
+402 silly addNameRange versions [ 'gulp-changed',
+402 silly addNameRange   [ '0.1.0',
+402 silly addNameRange     '0.2.0',
+402 silly addNameRange     '0.2.1',
+402 silly addNameRange     '0.3.0',
+402 silly addNameRange     '0.4.0',
+402 silly addNameRange     '0.4.1',
+402 silly addNameRange     '1.0.0',
+402 silly addNameRange     '1.1.0',
+402 silly addNameRange     '1.1.1',
+402 silly addNameRange     '1.2.0',
+402 silly addNameRange     '1.2.1' ] ]
+403 silly addNamed gulp-changed@1.2.1
+404 verbose addNamed "1.2.1" is a plain semver version for gulp-changed
+405 silly cache afterAdd gulp-changed@1.2.1
+406 verbose afterAdd /home/ryan/.npm/gulp-changed/1.2.1/package/package.json not in flight; writing
+407 verbose afterAdd /home/ryan/.npm/gulp-changed/1.2.1/package/package.json written
+408 http 200 https://registry.npmjs.org/fs-extra
+409 silly get cb [ 200,
+409 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+409 silly get     etag: '"EA8P5XDX36THZCMI09V5TXKYH"',
+409 silly get     'content-type': 'application/json',
+409 silly get     'cache-control': 'max-age=60',
+409 silly get     'content-length': '73394',
+409 silly get     'accept-ranges': 'bytes',
+409 silly get     date: 'Tue, 05 May 2015 05:42:41 GMT',
+409 silly get     via: '1.1 varnish',
+409 silly get     age: '53',
+409 silly get     connection: 'keep-alive',
+409 silly get     'x-served-by': 'cache-lax1423-LAX',
+409 silly get     'x-cache': 'HIT',
+409 silly get     'x-cache-hits': '1',
+409 silly get     'x-timer': 'S1430804561.462197,VS0,VE0',
+409 silly get     vary: 'Accept' } ]
+410 verbose get saving fs-extra to /home/ryan/.npm/registry.npmjs.org/fs-extra/.cache.json
+411 silly addNameRange number 2 { name: 'fs-extra', range: '>=0.13.0 <0.14.0', hasData: true }
+412 silly addNameRange versions [ 'fs-extra',
+412 silly addNameRange   [ '0.0.1',
+412 silly addNameRange     '0.0.11',
+412 silly addNameRange     '0.0.3',
+412 silly addNameRange     '0.0.4',
+412 silly addNameRange     '0.1.0',
+412 silly addNameRange     '0.1.1',
+412 silly addNameRange     '0.1.2',
+412 silly addNameRange     '0.1.3',
+412 silly addNameRange     '0.2.0',
+412 silly addNameRange     '0.2.1',
+412 silly addNameRange     '0.3.0',
+412 silly addNameRange     '0.3.1',
+412 silly addNameRange     '0.3.2',
+412 silly addNameRange     '0.4.0',
+412 silly addNameRange     '0.5.0',
+412 silly addNameRange     '0.6.0',
+412 silly addNameRange     '0.6.1',
+412 silly addNameRange     '0.6.2',
+412 silly addNameRange     '0.6.3',
+412 silly addNameRange     '0.6.4',
+412 silly addNameRange     '0.7.0',
+412 silly addNameRange     '0.7.1',
+412 silly addNameRange     '0.8.0',
+412 silly addNameRange     '0.8.1',
+412 silly addNameRange     '0.9.0',
+412 silly addNameRange     '0.9.1',
+412 silly addNameRange     '0.10.0',
+412 silly addNameRange     '0.11.0',
+412 silly addNameRange     '0.11.1',
+412 silly addNameRange     '0.12.0',
+412 silly addNameRange     '0.13.0',
+412 silly addNameRange     '0.14.0',
+412 silly addNameRange     '0.15.0',
+412 silly addNameRange     '0.16.0',
+412 silly addNameRange     '0.16.1',
+412 silly addNameRange     '0.16.2',
+412 silly addNameRange     '0.16.3',
+412 silly addNameRange     '0.16.4',
+412 silly addNameRange     '0.16.5',
+412 silly addNameRange     '0.17.0',
+412 silly addNameRange     '0.18.0',
+412 silly addNameRange     '0.18.1',
+412 silly addNameRange     '0.18.2' ] ]
+413 silly addNamed fs-extra@0.13.0
+414 verbose addNamed "0.13.0" is a plain semver version for fs-extra
+415 silly cache afterAdd fs-extra@0.13.0
+416 verbose afterAdd /home/ryan/.npm/fs-extra/0.13.0/package/package.json not in flight; writing
+417 verbose afterAdd /home/ryan/.npm/fs-extra/0.13.0/package/package.json written
+418 http 200 https://registry.npmjs.org/gulp
+419 silly get cb [ 200,
+419 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+419 silly get     etag: '"42J966Z32TZF7FJ1HZL4TDDPL"',
+419 silly get     'content-type': 'application/json',
+419 silly get     'cache-control': 'max-age=60',
+419 silly get     'content-length': '101348',
+419 silly get     'accept-ranges': 'bytes',
+419 silly get     date: 'Tue, 05 May 2015 05:42:41 GMT',
+419 silly get     via: '1.1 varnish',
+419 silly get     age: '59',
+419 silly get     connection: 'keep-alive',
+419 silly get     'x-served-by': 'cache-sjc3121-SJC',
+419 silly get     'x-cache': 'HIT',
+419 silly get     'x-cache-hits': '2',
+419 silly get     'x-timer': 'S1430804561.956911,VS0,VE0',
+419 silly get     vary: 'Accept' } ]
+420 verbose get saving gulp to /home/ryan/.npm/registry.npmjs.org/gulp/.cache.json
+421 silly addNameRange number 2 { name: 'gulp', range: '>=3.8.10 <4.0.0', hasData: true }
+422 silly addNameRange versions [ 'gulp',
+422 silly addNameRange   [ '0.0.1',
+422 silly addNameRange     '0.0.2',
+422 silly addNameRange     '0.0.3',
+422 silly addNameRange     '0.0.4',
+422 silly addNameRange     '0.0.5',
+422 silly addNameRange     '0.0.7',
+422 silly addNameRange     '0.0.8',
+422 silly addNameRange     '0.0.9',
+422 silly addNameRange     '0.1.0',
+422 silly addNameRange     '0.2.0',
+422 silly addNameRange     '1.0.0',
+422 silly addNameRange     '1.1.0',
+422 silly addNameRange     '1.2.0',
+422 silly addNameRange     '1.2.1',
+422 silly addNameRange     '2.0.0',
+422 silly addNameRange     '2.0.1',
+422 silly addNameRange     '2.1.0',
+422 silly addNameRange     '2.2.0',
+422 silly addNameRange     '2.3.0',
+422 silly addNameRange     '2.4.0',
+422 silly addNameRange     '2.4.1',
+422 silly addNameRange     '2.6.0',
+422 silly addNameRange     '2.6.1',
+422 silly addNameRange     '2.7.0',
+422 silly addNameRange     '3.0.0',
+422 silly addNameRange     '3.1.1',
+422 silly addNameRange     '3.1.2',
+422 silly addNameRange     '3.1.3',
+422 silly addNameRange     '3.1.4',
+422 silly addNameRange     '3.2.0',
+422 silly addNameRange     '3.2.1',
+422 silly addNameRange     '3.2.2',
+422 silly addNameRange     '3.2.3',
+422 silly addNameRange     '3.2.4',
+422 silly addNameRange     '3.2.5',
+422 silly addNameRange     '3.3.0',
+422 silly addNameRange     '3.3.1',
+422 silly addNameRange     '3.3.2',
+422 silly addNameRange     '3.3.4',
+422 silly addNameRange     '3.4.0',
+422 silly addNameRange     '3.5.0',
+422 silly addNameRange     '3.5.1',
+422 silly addNameRange     '3.5.2',
+422 silly addNameRange     '3.5.5',
+422 silly addNameRange     '3.5.6',
+422 silly addNameRange     '3.6.0',
+422 silly addNameRange     '3.6.1',
+422 silly addNameRange     '3.6.2',
+422 silly addNameRange     '3.7.0',
+422 silly addNameRange     '3.8.0',
+422 silly addNameRange     '3.8.1',
+422 silly addNameRange     '3.8.2',
+422 silly addNameRange     '3.8.3',
+422 silly addNameRange     '3.8.4',
+422 silly addNameRange     '3.8.5',
+422 silly addNameRange     '3.8.6',
+422 silly addNameRange     '3.8.7',
+422 silly addNameRange     '3.8.8',
+422 silly addNameRange     '3.8.9',
+422 silly addNameRange     '3.8.10',
+422 silly addNameRange     '3.8.11' ] ]
+423 silly addNamed gulp@3.8.11
+424 verbose addNamed "3.8.11" is a plain semver version for gulp
+425 silly cache afterAdd gulp@3.8.11
+426 verbose afterAdd /home/ryan/.npm/gulp/3.8.11/package/package.json not in flight; writing
+427 verbose afterAdd /home/ryan/.npm/gulp/3.8.11/package/package.json written
+428 http 200 https://registry.npmjs.org/gulp-load-plugins
+429 silly get cb [ 200,
+429 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+429 silly get     etag: '"A56HK7QJBTLU2BOF24D5PRB47"',
+429 silly get     'content-type': 'application/json',
+429 silly get     'cache-control': 'max-age=60',
+429 silly get     'content-length': '27941',
+429 silly get     'accept-ranges': 'bytes',
+429 silly get     date: 'Tue, 05 May 2015 05:42:42 GMT',
+429 silly get     via: '1.1 varnish',
+429 silly get     age: '21',
+429 silly get     connection: 'keep-alive',
+429 silly get     'x-served-by': 'cache-lax1428-LAX',
+429 silly get     'x-cache': 'HIT',
+429 silly get     'x-cache-hits': '1',
+429 silly get     'x-timer': 'S1430804562.112126,VS0,VE0',
+429 silly get     vary: 'Accept' } ]
+430 verbose get saving gulp-load-plugins to /home/ryan/.npm/registry.npmjs.org/gulp-load-plugins/.cache.json
+431 silly addNameRange number 2 { name: 'gulp-load-plugins',
+431 silly addNameRange   range: '>=0.8.0 <0.9.0',
+431 silly addNameRange   hasData: true }
+432 silly addNameRange versions [ 'gulp-load-plugins',
+432 silly addNameRange   [ '0.2.0',
+432 silly addNameRange     '0.3.0',
+432 silly addNameRange     '0.4.0',
+432 silly addNameRange     '0.5.0',
+432 silly addNameRange     '0.5.1',
+432 silly addNameRange     '0.6.0-beta',
+432 silly addNameRange     '0.5.2',
+432 silly addNameRange     '0.5.3',
+432 silly addNameRange     '0.6.0',
+432 silly addNameRange     '0.7.0',
+432 silly addNameRange     '0.7.1',
+432 silly addNameRange     '0.8.0',
+432 silly addNameRange     '0.8.1',
+432 silly addNameRange     '0.9.0',
+432 silly addNameRange     '0.10.0' ] ]
+433 silly addNamed gulp-load-plugins@0.8.1
+434 verbose addNamed "0.8.1" is a plain semver version for gulp-load-plugins
+435 silly cache afterAdd gulp-load-plugins@0.8.1
+436 verbose afterAdd /home/ryan/.npm/gulp-load-plugins/0.8.1/package/package.json not in flight; writing
+437 verbose afterAdd /home/ryan/.npm/gulp-load-plugins/0.8.1/package/package.json written
+438 http 200 https://registry.npmjs.org/gulp-sourcemaps
+439 silly get cb [ 200,
+439 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+439 silly get     etag: '"406IQPJDQE1O36TK5PZ10F7PJ"',
+439 silly get     'content-type': 'application/json',
+439 silly get     'cache-control': 'max-age=60',
+439 silly get     'content-length': '55045',
+439 silly get     'accept-ranges': 'bytes',
+439 silly get     date: 'Tue, 05 May 2015 05:42:42 GMT',
+439 silly get     via: '1.1 varnish',
+439 silly get     age: '0',
+439 silly get     connection: 'keep-alive',
+439 silly get     'x-served-by': 'cache-sjc3121-SJC',
+439 silly get     'x-cache': 'HIT',
+439 silly get     'x-cache-hits': '1',
+439 silly get     'x-timer': 'S1430804562.204586,VS0,VE149',
+439 silly get     vary: 'Accept' } ]
+440 verbose get saving gulp-sourcemaps to /home/ryan/.npm/registry.npmjs.org/gulp-sourcemaps/.cache.json
+441 http 200 https://registry.npmjs.org/del
+442 silly get cb [ 200,
+442 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+442 silly get     etag: '"Z38AK7RPIJ2ZGDQI3P00ME8"',
+442 silly get     'content-type': 'application/json',
+442 silly get     'cache-control': 'max-age=60',
+442 silly get     'content-length': '12356',
+442 silly get     'accept-ranges': 'bytes',
+442 silly get     date: 'Tue, 05 May 2015 05:42:42 GMT',
+442 silly get     via: '1.1 varnish',
+442 silly get     age: '0',
+442 silly get     connection: 'keep-alive',
+442 silly get     'x-served-by': 'cache-dfw1833-DFW',
+442 silly get     'x-cache': 'HIT',
+442 silly get     'x-cache-hits': '1',
+442 silly get     'x-timer': 'S1430804562.027305,VS0,VE182',
+442 silly get     vary: 'Accept' } ]
+443 verbose get saving del to /home/ryan/.npm/registry.npmjs.org/del/.cache.json
+444 silly addNameRange number 2 { name: 'gulp-sourcemaps',
+444 silly addNameRange   range: '>=1.2.8 <2.0.0',
+444 silly addNameRange   hasData: true }
+445 silly addNameRange versions [ 'gulp-sourcemaps',
+445 silly addNameRange   [ '0.2.0',
+445 silly addNameRange     '0.2.1',
+445 silly addNameRange     '0.3.0',
+445 silly addNameRange     '0.3.1',
+445 silly addNameRange     '0.4.0',
+445 silly addNameRange     '0.4.1',
+445 silly addNameRange     '0.4.2',
+445 silly addNameRange     '0.4.3',
+445 silly addNameRange     '0.4.4',
+445 silly addNameRange     '0.4.5',
+445 silly addNameRange     '0.4.6',
+445 silly addNameRange     '1.0.0',
+445 silly addNameRange     '1.1.0',
+445 silly addNameRange     '1.1.1',
+445 silly addNameRange     '1.1.2',
+445 silly addNameRange     '1.1.3',
+445 silly addNameRange     '1.1.4',
+445 silly addNameRange     '1.1.5',
+445 silly addNameRange     '1.2.0',
+445 silly addNameRange     '1.2.1',
+445 silly addNameRange     '1.2.2',
+445 silly addNameRange     '1.2.3',
+445 silly addNameRange     '1.2.4',
+445 silly addNameRange     '1.2.5',
+445 silly addNameRange     '1.2.6',
+445 silly addNameRange     '1.2.7',
+445 silly addNameRange     '1.2.8',
+445 silly addNameRange     '1.3.0',
+445 silly addNameRange     '1.4.0',
+445 silly addNameRange     '1.5.0',
+445 silly addNameRange     '1.5.1',
+445 silly addNameRange     '1.5.2' ] ]
+446 silly addNamed gulp-sourcemaps@1.5.2
+447 verbose addNamed "1.5.2" is a plain semver version for gulp-sourcemaps
+448 silly addNameRange number 2 { name: 'del', range: '>=1.1.1 <2.0.0', hasData: true }
+449 silly addNameRange versions [ 'del',
+449 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '1.0.0', '1.1.0', '1.1.1' ] ]
+450 silly addNamed del@1.1.1
+451 verbose addNamed "1.1.1" is a plain semver version for del
+452 silly mapToRegistry name gulp-sourcemaps
+453 silly mapToRegistry using default registry
+454 silly mapToRegistry registry https://registry.npmjs.org/
+455 silly mapToRegistry uri https://registry.npmjs.org/gulp-sourcemaps
+456 verbose addRemoteTarball https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz not in flight; adding
+457 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz',
+457 verbose addRemoteTarball   '796f6ff695a494215f3d3d66aa7ac853d7e73511' ]
+458 info retry fetch attempt 1 at 22:42:43
+459 info attempt registry request try #1 at 22:42:43
+460 http fetch GET https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz
+461 silly cache afterAdd del@1.1.1
+462 verbose afterAdd /home/ryan/.npm/del/1.1.1/package/package.json not in flight; writing
+463 verbose afterAdd /home/ryan/.npm/del/1.1.1/package/package.json written
+464 http 200 https://registry.npmjs.org/gulp-debug
+465 silly get cb [ 200,
+465 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+465 silly get     etag: '"6IVIJRRLCIG34XGTZQDIMQ53X"',
+465 silly get     'content-type': 'application/json',
+465 silly get     'cache-control': 'max-age=60',
+465 silly get     'content-length': '14216',
+465 silly get     'accept-ranges': 'bytes',
+465 silly get     date: 'Tue, 05 May 2015 05:42:42 GMT',
+465 silly get     via: '1.1 varnish',
+465 silly get     age: '0',
+465 silly get     connection: 'keep-alive',
+465 silly get     'x-served-by': 'cache-dfw1827-DFW',
+465 silly get     'x-cache': 'HIT',
+465 silly get     'x-cache-hits': '1',
+465 silly get     'x-timer': 'S1430804562.124889,VS0,VE255',
+465 silly get     vary: 'Accept' } ]
+466 verbose get saving gulp-debug to /home/ryan/.npm/registry.npmjs.org/gulp-debug/.cache.json
+467 silly addNameRange number 2 { name: 'gulp-debug', range: '>=2.0.0 <3.0.0', hasData: true }
+468 silly addNameRange versions [ 'gulp-debug',
+468 silly addNameRange   [ '0.1.0',
+468 silly addNameRange     '0.1.1',
+468 silly addNameRange     '0.1.2',
+468 silly addNameRange     '0.2.0',
+468 silly addNameRange     '0.3.0',
+468 silly addNameRange     '0.3.1',
+468 silly addNameRange     '1.0.0',
+468 silly addNameRange     '1.0.1',
+468 silly addNameRange     '2.0.0',
+468 silly addNameRange     '2.0.1' ] ]
+469 silly addNamed gulp-debug@2.0.1
+470 verbose addNamed "2.0.1" is a plain semver version for gulp-debug
+471 silly cache afterAdd gulp-debug@2.0.1
+472 verbose afterAdd /home/ryan/.npm/gulp-debug/2.0.1/package/package.json not in flight; writing
+473 verbose afterAdd /home/ryan/.npm/gulp-debug/2.0.1/package/package.json written
+474 http 200 https://registry.npmjs.org/gulp-plumber
+475 silly get cb [ 200,
+475 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+475 silly get     etag: '"9G5DEKGDGEQHSGHNUWQL3MBZD"',
+475 silly get     'content-type': 'application/json',
+475 silly get     'cache-control': 'max-age=60',
+475 silly get     'content-length': '37906',
+475 silly get     'accept-ranges': 'bytes',
+475 silly get     date: 'Tue, 05 May 2015 05:42:42 GMT',
+475 silly get     via: '1.1 varnish',
+475 silly get     age: '0',
+475 silly get     connection: 'keep-alive',
+475 silly get     'x-served-by': 'cache-lax1423-LAX',
+475 silly get     'x-cache': 'HIT',
+475 silly get     'x-cache-hits': '1',
+475 silly get     'x-timer': 'S1430804562.121323,VS0,VE179',
+475 silly get     vary: 'Accept' } ]
+476 verbose get saving gulp-plumber to /home/ryan/.npm/registry.npmjs.org/gulp-plumber/.cache.json
+477 silly addNameRange number 2 { name: 'gulp-plumber', range: '>=0.6.6 <0.7.0', hasData: true }
+478 silly addNameRange versions [ 'gulp-plumber',
+478 silly addNameRange   [ '0.0.1',
+478 silly addNameRange     '0.1.0',
+478 silly addNameRange     '0.2.0',
+478 silly addNameRange     '0.2.1',
+478 silly addNameRange     '0.2.3',
+478 silly addNameRange     '0.3.0',
+478 silly addNameRange     '0.4.0',
+478 silly addNameRange     '0.4.1',
+478 silly addNameRange     '0.5.0-rc1',
+478 silly addNameRange     '0.5.0',
+478 silly addNameRange     '0.5.1',
+478 silly addNameRange     '0.5.2',
+478 silly addNameRange     '0.5.3',
+478 silly addNameRange     '0.5.4',
+478 silly addNameRange     '0.5.5',
+478 silly addNameRange     '0.5.6',
+478 silly addNameRange     '0.6.0',
+478 silly addNameRange     '0.6.1',
+478 silly addNameRange     '0.6.2',
+478 silly addNameRange     '0.6.3',
+478 silly addNameRange     '0.6.4',
+478 silly addNameRange     '0.6.5',
+478 silly addNameRange     '0.6.6',
+478 silly addNameRange     '1.0.0' ] ]
+479 silly addNamed gulp-plumber@0.6.6
+480 verbose addNamed "0.6.6" is a plain semver version for gulp-plumber
+481 silly cache afterAdd gulp-plumber@0.6.6
+482 verbose afterAdd /home/ryan/.npm/gulp-plumber/0.6.6/package/package.json not in flight; writing
+483 verbose afterAdd /home/ryan/.npm/gulp-plumber/0.6.6/package/package.json written
+484 http 304 https://registry.npmjs.org/inquirer
+485 silly get cb [ 304,
+485 silly get   { date: 'Tue, 05 May 2015 05:42:43 GMT',
+485 silly get     via: '1.1 varnish',
+485 silly get     'last-modified': 'Tue, 05 May 2015 05:42:43 GMT',
+485 silly get     'cache-control': 'max-age=60',
+485 silly get     etag: '"CH5XRAAC3QZ30Y5ZCHOJC31S6"',
+485 silly get     age: '9',
+485 silly get     connection: 'keep-alive',
+485 silly get     'x-served-by': 'cache-dfw1833-DFW',
+485 silly get     'x-cache': 'HIT',
+485 silly get     'x-cache-hits': '1',
+485 silly get     'x-timer': 'S1430804563.983890,VS0,VE0',
+485 silly get     vary: 'Accept' } ]
+486 verbose etag https://registry.npmjs.org/inquirer from cache
+487 verbose get saving inquirer to /home/ryan/.npm/registry.npmjs.org/inquirer/.cache.json
+488 silly addNameRange number 2 { name: 'inquirer', range: '>=0.8.0 <0.9.0', hasData: true }
+489 silly addNameRange versions [ 'inquirer',
+489 silly addNameRange   [ '0.1.0',
+489 silly addNameRange     '0.1.1',
+489 silly addNameRange     '0.1.2',
+489 silly addNameRange     '0.1.3',
+489 silly addNameRange     '0.1.4',
+489 silly addNameRange     '0.1.5',
+489 silly addNameRange     '0.1.6',
+489 silly addNameRange     '0.1.7',
+489 silly addNameRange     '0.1.8',
+489 silly addNameRange     '0.1.9',
+489 silly addNameRange     '0.2.0',
+489 silly addNameRange     '0.2.1',
+489 silly addNameRange     '0.1.11',
+489 silly addNameRange     '0.1.12',
+489 silly addNameRange     '0.2.2',
+489 silly addNameRange     '0.2.3',
+489 silly addNameRange     '0.2.4',
+489 silly addNameRange     '0.2.5',
+489 silly addNameRange     '0.3.0',
+489 silly addNameRange     '0.3.1',
+489 silly addNameRange     '0.3.2',
+489 silly addNameRange     '0.3.3',
+489 silly addNameRange     '0.3.4',
+489 silly addNameRange     '0.3.5',
+489 silly addNameRange     '0.4.0',
+489 silly addNameRange     '0.4.1',
+489 silly addNameRange     '0.5.0',
+489 silly addNameRange     '0.5.1',
+489 silly addNameRange     '0.6.0',
+489 silly addNameRange     '0.7.1',
+489 silly addNameRange     '0.7.2',
+489 silly addNameRange     '0.7.3',
+489 silly addNameRange     '0.8.0',
+489 silly addNameRange     '0.8.2',
+489 silly addNameRange     '0.8.3' ] ]
+490 silly addNamed inquirer@0.8.3
+491 verbose addNamed "0.8.3" is a plain semver version for inquirer
+492 silly cache afterAdd inquirer@0.8.3
+493 verbose afterAdd /home/ryan/.npm/inquirer/0.8.3/package/package.json not in flight; writing
+494 verbose afterAdd /home/ryan/.npm/inquirer/0.8.3/package/package.json written
+495 http 304 https://registry.npmjs.org/liferay-theme-mixins
+496 silly get cb [ 304,
+496 silly get   { date: 'Tue, 05 May 2015 05:42:44 GMT',
+496 silly get     via: '1.1 varnish',
+496 silly get     'last-modified': 'Tue, 05 May 2015 05:42:44 GMT',
+496 silly get     'cache-control': 'max-age=60',
+496 silly get     etag: '"1ISY10CHBUMYPM57WTH8MCKRV"',
+496 silly get     age: '0',
+496 silly get     connection: 'keep-alive',
+496 silly get     'x-served-by': 'cache-lax1423-LAX',
+496 silly get     'x-cache': 'MISS',
+496 silly get     'x-cache-hits': '0',
+496 silly get     'x-timer': 'S1430804564.007101,VS0,VE48',
+496 silly get     vary: 'Accept' } ]
+497 verbose etag https://registry.npmjs.org/liferay-theme-mixins from cache
+498 verbose get saving liferay-theme-mixins to /home/ryan/.npm/registry.npmjs.org/liferay-theme-mixins/.cache.json
+499 http 200 https://registry.npmjs.org/liferay-theme-styled
+500 silly get cb [ 200,
+500 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+500 silly get     etag: '"7PTNYTR5R3ZFG8YNWV1JUSP77"',
+500 silly get     'content-type': 'application/json',
+500 silly get     'cache-control': 'max-age=60',
+500 silly get     'content-length': '3794',
+500 silly get     'accept-ranges': 'bytes',
+500 silly get     date: 'Tue, 05 May 2015 05:42:44 GMT',
+500 silly get     via: '1.1 varnish',
+500 silly get     age: '0',
+500 silly get     connection: 'keep-alive',
+500 silly get     'x-served-by': 'cache-dfw1833-DFW',
+500 silly get     'x-cache': 'MISS',
+500 silly get     'x-cache-hits': '0',
+500 silly get     'x-timer': 'S1430804564.036748,VS0,VE66',
+500 silly get     vary: 'Accept' } ]
+501 verbose get saving liferay-theme-styled to /home/ryan/.npm/registry.npmjs.org/liferay-theme-styled/.cache.json
+502 http 304 https://registry.npmjs.org/gulp-storage
+503 silly get cb [ 304,
+503 silly get   { date: 'Tue, 05 May 2015 05:42:43 GMT',
+503 silly get     via: '1.1 varnish',
+503 silly get     'last-modified': 'Tue, 05 May 2015 05:42:44 GMT',
+503 silly get     'cache-control': 'max-age=60',
+503 silly get     etag: '"A01OPZ4I90H41BAGBNI76IDJP"',
+503 silly get     age: '0',
+503 silly get     connection: 'keep-alive',
+503 silly get     'x-served-by': 'cache-lax1428-LAX',
+503 silly get     'x-cache': 'MISS',
+503 silly get     'x-cache-hits': '0',
+503 silly get     'x-timer': 'S1430804563.894077,VS0,VE384',
+503 silly get     vary: 'Accept' } ]
+504 verbose etag https://registry.npmjs.org/gulp-storage from cache
+505 verbose get saving gulp-storage to /home/ryan/.npm/registry.npmjs.org/gulp-storage/.cache.json
+506 http 304 https://registry.npmjs.org/gulp-war
+507 silly get cb [ 304,
+507 silly get   { date: 'Tue, 05 May 2015 05:42:43 GMT',
+507 silly get     via: '1.1 varnish',
+507 silly get     'cache-control': 'max-age=60',
+507 silly get     etag: '"2HDY2JGO9W22YM0ET0L8L3QQ6"',
+507 silly get     age: '0',
+507 silly get     connection: 'keep-alive',
+507 silly get     'x-served-by': 'cache-sjc3121-SJC',
+507 silly get     'x-cache': 'MISS',
+507 silly get     'x-cache-hits': '0',
+507 silly get     'x-timer': 'S1430804563.969859,VS0,VE357',
+507 silly get     vary: 'Accept' } ]
+508 verbose etag https://registry.npmjs.org/gulp-war from cache
+509 verbose get saving gulp-war to /home/ryan/.npm/registry.npmjs.org/gulp-war/.cache.json
+510 silly addNameRange number 2 { name: 'liferay-theme-mixins',
+510 silly addNameRange   range: '>=6.2.0 <7.0.0',
+510 silly addNameRange   hasData: true }
+511 silly addNameRange versions [ 'liferay-theme-mixins',
+511 silly addNameRange   [ '6.2.0', '6.2.1', '7.0.0', '7.0.1' ] ]
+512 silly addNamed liferay-theme-mixins@6.2.1
+513 verbose addNamed "6.2.1" is a plain semver version for liferay-theme-mixins
+514 silly addNameRange number 2 { name: 'liferay-theme-styled',
+514 silly addNameRange   range: '>=6.2.0 <7.0.0',
+514 silly addNameRange   hasData: true }
+515 silly addNameRange versions [ 'liferay-theme-styled', [ '6.2.0', '6.2.1', '7.0.0' ] ]
+516 silly addNamed liferay-theme-styled@6.2.1
+517 verbose addNamed "6.2.1" is a plain semver version for liferay-theme-styled
+518 silly addNameRange number 2 { name: 'gulp-storage', range: '>=1.0.6 <2.0.0', hasData: true }
+519 silly addNameRange versions [ 'gulp-storage',
+519 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6' ] ]
+520 silly addNamed gulp-storage@1.0.6
+521 verbose addNamed "1.0.6" is a plain semver version for gulp-storage
+522 silly cache afterAdd liferay-theme-mixins@6.2.1
+523 verbose afterAdd /home/ryan/.npm/liferay-theme-mixins/6.2.1/package/package.json not in flight; writing
+524 silly cache afterAdd liferay-theme-styled@6.2.1
+525 verbose afterAdd /home/ryan/.npm/liferay-theme-styled/6.2.1/package/package.json not in flight; writing
+526 silly cache afterAdd gulp-storage@1.0.6
+527 verbose afterAdd /home/ryan/.npm/gulp-storage/1.0.6/package/package.json not in flight; writing
+528 silly cache afterAdd gulp-war@0.0.1
+529 verbose afterAdd /home/ryan/.npm/gulp-war/0.0.1/package/package.json not in flight; writing
+530 verbose afterAdd /home/ryan/.npm/liferay-theme-mixins/6.2.1/package/package.json written
+531 verbose afterAdd /home/ryan/.npm/liferay-theme-styled/6.2.1/package/package.json written
+532 verbose afterAdd /home/ryan/.npm/gulp-storage/1.0.6/package/package.json written
+533 verbose afterAdd /home/ryan/.npm/gulp-war/0.0.1/package/package.json written
+534 http 304 https://registry.npmjs.org/lodash
+535 silly get cb [ 304,
+535 silly get   { date: 'Tue, 05 May 2015 05:42:45 GMT',
+535 silly get     via: '1.1 varnish',
+535 silly get     'last-modified': 'Tue, 05 May 2015 05:42:45 GMT',
+535 silly get     'cache-control': 'max-age=60',
+535 silly get     etag: '"ASYRR044UXWJYRT0XXMUCNJVM"',
+535 silly get     age: '7',
+535 silly get     connection: 'keep-alive',
+535 silly get     'x-served-by': 'cache-lax1423-LAX',
+535 silly get     'x-cache': 'HIT',
+535 silly get     'x-cache-hits': '1',
+535 silly get     'x-timer': 'S1430804565.065244,VS0,VE0',
+535 silly get     vary: 'Accept' } ]
+536 verbose etag https://registry.npmjs.org/lodash from cache
+537 verbose get saving lodash to /home/ryan/.npm/registry.npmjs.org/lodash/.cache.json
+538 silly addNameRange number 2 { name: 'lodash', range: '>=2.4.1 <3.0.0', hasData: true }
+539 silly addNameRange versions [ 'lodash',
+539 silly addNameRange   [ '0.1.0',
+539 silly addNameRange     '0.2.0',
+539 silly addNameRange     '0.2.1',
+539 silly addNameRange     '0.2.2',
+539 silly addNameRange     '0.3.0',
+539 silly addNameRange     '0.3.1',
+539 silly addNameRange     '0.3.2',
+539 silly addNameRange     '0.4.0',
+539 silly addNameRange     '0.4.1',
+539 silly addNameRange     '0.4.2',
+539 silly addNameRange     '0.5.0-rc.1',
+539 silly addNameRange     '0.5.0',
+539 silly addNameRange     '0.5.1',
+539 silly addNameRange     '0.5.2',
+539 silly addNameRange     '0.6.0',
+539 silly addNameRange     '0.6.1',
+539 silly addNameRange     '0.7.0',
+539 silly addNameRange     '0.8.0',
+539 silly addNameRange     '0.8.1',
+539 silly addNameRange     '0.8.2',
+539 silly addNameRange     '0.9.0',
+539 silly addNameRange     '0.9.1',
+539 silly addNameRange     '0.9.2',
+539 silly addNameRange     '0.10.0',
+539 silly addNameRange     '1.0.0-rc.1',
+539 silly addNameRange     '1.0.0-rc.2',
+539 silly addNameRange     '1.0.0-rc.3',
+539 silly addNameRange     '1.0.0',
+539 silly addNameRange     '1.0.1',
+539 silly addNameRange     '1.1.0',
+539 silly addNameRange     '1.1.1',
+539 silly addNameRange     '1.2.0',
+539 silly addNameRange     '1.2.1',
+539 silly addNameRange     '1.3.0',
+539 silly addNameRange     '1.3.1',
+539 silly addNameRange     '2.0.0',
+539 silly addNameRange     '2.1.0',
+539 silly addNameRange     '2.2.0',
+539 silly addNameRange     '2.2.1',
+539 silly addNameRange     '2.3.0',
+539 silly addNameRange     '2.4.0',
+539 silly addNameRange     '2.4.1',
+539 silly addNameRange     '3.0.0',
+539 silly addNameRange     '3.0.1',
+539 silly addNameRange     '3.1.0',
+539 silly addNameRange     '3.2.0',
+539 silly addNameRange     '3.3.0',
+539 silly addNameRange     '3.3.1',
+539 silly addNameRange     '3.4.0',
+539 silly addNameRange     '3.5.0',
+539 silly addNameRange     '3.6.0',
+539 silly addNameRange     '1.0.2',
+539 silly addNameRange     '3.7.0',
+539 silly addNameRange     '2.4.2',
+539 silly addNameRange     '3.8.0' ] ]
+540 silly addNamed lodash@2.4.2
+541 verbose addNamed "2.4.2" is a plain semver version for lodash
+542 silly cache afterAdd lodash@2.4.2
+543 verbose afterAdd /home/ryan/.npm/lodash/2.4.2/package/package.json not in flight; writing
+544 verbose afterAdd /home/ryan/.npm/lodash/2.4.2/package/package.json written
+545 http 304 https://registry.npmjs.org/minimist
+546 silly get cb [ 304,
+546 silly get   { date: 'Tue, 05 May 2015 05:42:45 GMT',
+546 silly get     via: '1.1 varnish',
+546 silly get     'last-modified': 'Tue, 05 May 2015 05:42:42 GMT',
+546 silly get     'cache-control': 'max-age=60',
+546 silly get     etag: '"A1K2IV9LYXN9AZS3JYT6C4WZD"',
+546 silly get     age: '51',
+546 silly get     connection: 'keep-alive',
+546 silly get     'x-served-by': 'cache-dfw1833-DFW',
+546 silly get     'x-cache': 'HIT',
+546 silly get     'x-cache-hits': '2',
+546 silly get     'x-timer': 'S1430804565.089139,VS0,VE0',
+546 silly get     vary: 'Accept' } ]
+547 verbose etag https://registry.npmjs.org/minimist from cache
+548 verbose get saving minimist to /home/ryan/.npm/registry.npmjs.org/minimist/.cache.json
+549 http 200 https://registry.npmjs.org/gulp-zip
+550 silly get cb [ 200,
+550 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+550 silly get     etag: '"BWI97UYZZHBAEF7FZD5VQ8GV5"',
+550 silly get     'content-type': 'application/json',
+550 silly get     'cache-control': 'max-age=60',
+550 silly get     'content-length': '23467',
+550 silly get     'accept-ranges': 'bytes',
+550 silly get     date: 'Tue, 05 May 2015 05:42:44 GMT',
+550 silly get     via: '1.1 varnish',
+550 silly get     age: '0',
+550 silly get     connection: 'keep-alive',
+550 silly get     'x-served-by': 'cache-dfw1827-DFW',
+550 silly get     'x-cache': 'HIT',
+550 silly get     'x-cache-hits': '1',
+550 silly get     'x-timer': 'S1430804564.009935,VS0,VE257',
+550 silly get     vary: 'Accept' } ]
+551 verbose get saving gulp-zip to /home/ryan/.npm/registry.npmjs.org/gulp-zip/.cache.json
+552 silly addNameRange number 2 { name: 'minimist', range: '>=1.1.0 <2.0.0', hasData: true }
+553 silly addNameRange versions [ 'minimist',
+553 silly addNameRange   [ '0.0.0',
+553 silly addNameRange     '0.0.1',
+553 silly addNameRange     '0.0.2',
+553 silly addNameRange     '0.0.3',
+553 silly addNameRange     '0.0.4',
+553 silly addNameRange     '0.0.5',
+553 silly addNameRange     '0.0.6',
+553 silly addNameRange     '0.0.7',
+553 silly addNameRange     '0.0.8',
+553 silly addNameRange     '0.0.9',
+553 silly addNameRange     '0.0.10',
+553 silly addNameRange     '0.1.0',
+553 silly addNameRange     '0.2.0',
+553 silly addNameRange     '1.0.0',
+553 silly addNameRange     '1.1.0',
+553 silly addNameRange     '1.1.1' ] ]
+554 silly addNamed minimist@1.1.1
+555 verbose addNamed "1.1.1" is a plain semver version for minimist
+556 silly cache afterAdd minimist@1.1.1
+557 verbose afterAdd /home/ryan/.npm/minimist/1.1.1/package/package.json not in flight; writing
+558 silly addNameRange number 2 { name: 'gulp-zip', range: '>=2.0.2 <3.0.0', hasData: true }
+559 silly addNameRange versions [ 'gulp-zip',
+559 silly addNameRange   [ '0.1.0',
+559 silly addNameRange     '0.1.1',
+559 silly addNameRange     '0.1.2',
+559 silly addNameRange     '0.2.0',
+559 silly addNameRange     '0.3.0',
+559 silly addNameRange     '0.3.1',
+559 silly addNameRange     '0.3.2',
+559 silly addNameRange     '0.3.3',
+559 silly addNameRange     '0.3.4',
+559 silly addNameRange     '0.4.0',
+559 silly addNameRange     '0.5.0',
+559 silly addNameRange     '1.0.0',
+559 silly addNameRange     '2.0.0',
+559 silly addNameRange     '2.0.1',
+559 silly addNameRange     '2.0.2',
+559 silly addNameRange     '2.0.3',
+559 silly addNameRange     '3.0.0',
+559 silly addNameRange     '3.0.1',
+559 silly addNameRange     '3.0.2' ] ]
+560 silly addNamed gulp-zip@2.0.3
+561 verbose addNamed "2.0.3" is a plain semver version for gulp-zip
+562 verbose afterAdd /home/ryan/.npm/minimist/1.1.1/package/package.json written
+563 silly cache afterAdd gulp-zip@2.0.3
+564 verbose afterAdd /home/ryan/.npm/gulp-zip/2.0.3/package/package.json not in flight; writing
+565 verbose afterAdd /home/ryan/.npm/gulp-zip/2.0.3/package/package.json written
+566 http fetch 200 https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz
+567 silly fetchAndShaCheck shasum 796f6ff695a494215f3d3d66aa7ac853d7e73511
+568 verbose addTmpTarball /tmp/npm-32399-11515f10/registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz not in flight; adding
+569 verbose addTmpTarball already have metadata; skipping unpack for gulp-sourcemaps@1.5.2
+570 http 304 https://registry.npmjs.org/liferay-theme-unstyled
+571 silly get cb [ 304,
+571 silly get   { date: 'Tue, 05 May 2015 05:42:45 GMT',
+571 silly get     via: '1.1 varnish',
+571 silly get     'last-modified': 'Tue, 05 May 2015 05:42:45 GMT',
+571 silly get     'cache-control': 'max-age=60',
+571 silly get     etag: '"8AVK10KGTUXH6D4KHLDOD094G"',
+571 silly get     age: '0',
+571 silly get     connection: 'keep-alive',
+571 silly get     'x-served-by': 'cache-lax1428-LAX',
+571 silly get     'x-cache': 'MISS',
+571 silly get     'x-cache-hits': '0',
+571 silly get     'x-timer': 'S1430804565.073420,VS0,VE182',
+571 silly get     vary: 'Accept' } ]
+572 verbose etag https://registry.npmjs.org/liferay-theme-unstyled from cache
+573 verbose get saving liferay-theme-unstyled to /home/ryan/.npm/registry.npmjs.org/liferay-theme-unstyled/.cache.json
+574 http 200 https://registry.npmjs.org/run-sequence
+575 silly get cb [ 200,
+575 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+575 silly get     etag: '"5F2SYAWXLQV2ROPOIHAFVOAUZ"',
+575 silly get     'content-type': 'application/json',
+575 silly get     'cache-control': 'max-age=60',
+575 silly get     'content-length': '18755',
+575 silly get     'accept-ranges': 'bytes',
+575 silly get     date: 'Tue, 05 May 2015 05:42:45 GMT',
+575 silly get     via: '1.1 varnish',
+575 silly get     age: '0',
+575 silly get     connection: 'keep-alive',
+575 silly get     'x-served-by': 'cache-sjc3121-SJC',
+575 silly get     'x-cache': 'HIT',
+575 silly get     'x-cache-hits': '1',
+575 silly get     'x-timer': 'S1430804565.084483,VS0,VE148',
+575 silly get     vary: 'Accept' } ]
+576 verbose get saving run-sequence to /home/ryan/.npm/registry.npmjs.org/run-sequence/.cache.json
+577 silly addNameRange number 2 { name: 'liferay-theme-unstyled',
+577 silly addNameRange   range: '>=6.2.0 <7.0.0',
+577 silly addNameRange   hasData: true }
+578 silly addNameRange versions [ 'liferay-theme-unstyled',
+578 silly addNameRange   [ '6.2.0', '6.2.1', '7.0.0', '6.2.2' ] ]
+579 silly addNamed liferay-theme-unstyled@6.2.2
+580 verbose addNamed "6.2.2" is a plain semver version for liferay-theme-unstyled
+581 silly addNameRange number 2 { name: 'run-sequence', range: '>=1.0.2 <2.0.0', hasData: true }
+582 silly addNameRange versions [ 'run-sequence',
+582 silly addNameRange   [ '0.3.1',
+582 silly addNameRange     '0.3.2',
+582 silly addNameRange     '0.3.3',
+582 silly addNameRange     '0.3.4',
+582 silly addNameRange     '0.3.5',
+582 silly addNameRange     '0.3.6',
+582 silly addNameRange     '0.3.7',
+582 silly addNameRange     '1.0.0',
+582 silly addNameRange     '1.0.1',
+582 silly addNameRange     '1.0.2',
+582 silly addNameRange     '1.1.0' ] ]
+583 silly addNamed run-sequence@1.1.0
+584 verbose addNamed "1.1.0" is a plain semver version for run-sequence
+585 silly cache afterAdd gulp-sourcemaps@1.5.2
+586 verbose afterAdd /home/ryan/.npm/gulp-sourcemaps/1.5.2/package/package.json not in flight; writing
+587 silly mapToRegistry name run-sequence
+588 silly mapToRegistry using default registry
+589 silly mapToRegistry registry https://registry.npmjs.org/
+590 silly mapToRegistry uri https://registry.npmjs.org/run-sequence
+591 verbose addRemoteTarball https://registry.npmjs.org/run-sequence/-/run-sequence-1.1.0.tgz not in flight; adding
+592 verbose addRemoteTarball [ 'https://registry.npmjs.org/run-sequence/-/run-sequence-1.1.0.tgz',
+592 verbose addRemoteTarball   '7de22eda0f6dc3131e4224b3b806fd2726b9fb0d' ]
+593 info retry fetch attempt 1 at 22:42:46
+594 info attempt registry request try #1 at 22:42:46
+595 http fetch GET https://registry.npmjs.org/run-sequence/-/run-sequence-1.1.0.tgz
+596 verbose afterAdd /home/ryan/.npm/gulp-sourcemaps/1.5.2/package/package.json written
+597 silly cache afterAdd liferay-theme-unstyled@6.2.2
+598 verbose afterAdd /home/ryan/.npm/liferay-theme-unstyled/6.2.2/package/package.json not in flight; writing
+599 verbose afterAdd /home/ryan/.npm/liferay-theme-unstyled/6.2.2/package/package.json written
+600 http 200 https://registry.npmjs.org/gulp-ruby-sass
+601 silly get cb [ 200,
+601 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+601 silly get     etag: '"4YA6T50HN5PYTFFY4CKFLRT3R"',
+601 silly get     'content-type': 'application/json',
+601 silly get     'cache-control': 'max-age=60',
+601 silly get     'content-length': '34675',
+601 silly get     'accept-ranges': 'bytes',
+601 silly get     date: 'Tue, 05 May 2015 05:42:45 GMT',
+601 silly get     via: '1.1 varnish',
+601 silly get     age: '0',
+601 silly get     connection: 'keep-alive',
+601 silly get     'x-served-by': 'cache-lax1423-LAX',
+601 silly get     'x-cache': 'HIT',
+601 silly get     'x-cache-hits': '1',
+601 silly get     'x-timer': 'S1430804565.084285,VS0,VE43',
+601 silly get     vary: 'Accept' } ]
+602 verbose get saving gulp-ruby-sass to /home/ryan/.npm/registry.npmjs.org/gulp-ruby-sass/.cache.json
+603 silly addNameRange number 2 { name: 'gulp-ruby-sass',
+603 silly addNameRange   range: '>=0.7.1 <0.8.0',
+603 silly addNameRange   hasData: true }
+604 silly addNameRange versions [ 'gulp-ruby-sass',
+604 silly addNameRange   [ '0.1.0',
+604 silly addNameRange     '0.1.1',
+604 silly addNameRange     '0.1.2',
+604 silly addNameRange     '0.2.0',
+604 silly addNameRange     '0.3.0',
+604 silly addNameRange     '0.3.1',
+604 silly addNameRange     '0.4.0',
+604 silly addNameRange     '0.4.1',
+604 silly addNameRange     '0.4.2',
+604 silly addNameRange     '0.4.3',
+604 silly addNameRange     '0.5.0',
+604 silly addNameRange     '0.6.0',
+604 silly addNameRange     '0.7.0',
+604 silly addNameRange     '0.7.1',
+604 silly addNameRange     '1.0.0-alpha',
+604 silly addNameRange     '1.0.0-alpha.2',
+604 silly addNameRange     '1.0.0-alpha.3',
+604 silly addNameRange     '1.0.0',
+604 silly addNameRange     '1.0.1',
+604 silly addNameRange     '1.0.2',
+604 silly addNameRange     '1.0.5' ] ]
+605 silly addNamed gulp-ruby-sass@0.7.1
+606 verbose addNamed "0.7.1" is a plain semver version for gulp-ruby-sass
+607 silly cache afterAdd gulp-ruby-sass@0.7.1
+608 verbose afterAdd /home/ryan/.npm/gulp-ruby-sass/0.7.1/package/package.json not in flight; writing
+609 verbose afterAdd /home/ryan/.npm/gulp-ruby-sass/0.7.1/package/package.json written
+610 http fetch 200 https://registry.npmjs.org/run-sequence/-/run-sequence-1.1.0.tgz
+611 silly fetchAndShaCheck shasum 7de22eda0f6dc3131e4224b3b806fd2726b9fb0d
+612 verbose addTmpTarball /tmp/npm-32399-11515f10/registry.npmjs.org/run-sequence/-/run-sequence-1.1.0.tgz not in flight; adding
+613 verbose addTmpTarball already have metadata; skipping unpack for run-sequence@1.1.0
+614 silly cache afterAdd run-sequence@1.1.0
+615 verbose afterAdd /home/ryan/.npm/run-sequence/1.1.0/package/package.json not in flight; writing
+616 verbose afterAdd /home/ryan/.npm/run-sequence/1.1.0/package/package.json written
+617 silly install resolved [ { name: 'gulp-add-src',
+617 silly install resolved     version: '0.2.0',
+617 silly install resolved     description: 'Add more \'src\' files at any point in the pipeline (gulp plugin)',
+617 silly install resolved     main: 'index.js',
+617 silly install resolved     scripts: { test: 'mocha' },
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git+https://github.com/urish/gulp-add-src.git' },
+617 silly install resolved     keywords: [ 'gulp', 'gulpplugin', 'gulpfriendly', 'pipeline' ],
+617 silly install resolved     author: { name: 'Uri Shaked' },
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     bugs: { url: 'https://github.com/urish/gulp-add-src/issues' },
+617 silly install resolved     dependencies:
+617 silly install resolved      { 'event-stream': '~3.1.5',
+617 silly install resolved        streamqueue: '^0.1.1',
+617 silly install resolved        through2: '~0.4.1',
+617 silly install resolved        'vinyl-fs': '~0.3.11' },
+617 silly install resolved     devDependencies: { mocha: '^1.18.2', gulp: '^3.6.2' },
+617 silly install resolved     gitHead: '87bfcca62725a6bc19185f8e1bf60526277f546b',
+617 silly install resolved     homepage: 'https://github.com/urish/gulp-add-src',
+617 silly install resolved     _id: 'gulp-add-src@0.2.0',
+617 silly install resolved     _shasum: '9e10294619f91a0e7f4217c4f5e51841bcdbef17',
+617 silly install resolved     _from: 'gulp-add-src@>=0.2.0 <0.3.0',
+617 silly install resolved     _npmVersion: '1.4.23',
+617 silly install resolved     _npmUser: { name: 'urish', email: 'uri@urish.org' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '9e10294619f91a0e7f4217c4f5e51841bcdbef17',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-add-src/-/gulp-add-src-0.2.0.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-add-src/-/gulp-add-src-0.2.0.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp-rename',
+617 silly install resolved     version: '1.2.2',
+617 silly install resolved     description: 'Rename files',
+617 silly install resolved     keywords: [ 'gulpplugin' ],
+617 silly install resolved     homepage: 'https://github.com/hparra/gulp-rename',
+617 silly install resolved     bugs: { url: 'https://github.com/hparra/gulp-rename/issues' },
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Hector Guillermo Parra Alvarez',
+617 silly install resolved        email: 'hector@hectorparra.com',
+617 silly install resolved        url: 'https://github.com/hparra' },
+617 silly install resolved     main: './index.js',
+617 silly install resolved     files: [ 'index.js' ],
+617 silly install resolved     repository: { type: 'git', url: 'git://github.com/hparra/gulp-rename.git' },
+617 silly install resolved     scripts: { pretest: 'jshint index.js test/', test: 'mocha' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { gulp: '>=3.0.0',
+617 silly install resolved        'gulp-sourcemaps': '^1.5.0',
+617 silly install resolved        'gulp-util': '^3.0.4',
+617 silly install resolved        jshint: '^2.6.3',
+617 silly install resolved        'map-stream': '>=0.0.4',
+617 silly install resolved        mocha: '>=1.15.0',
+617 silly install resolved        should: '>=2.1.0' },
+617 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+617 silly install resolved     licenses: [ [Object] ],
+617 silly install resolved     gitHead: 'e1fb4e41dd107b38e96f1156fcbee70ebcf16fb6',
+617 silly install resolved     _id: 'gulp-rename@1.2.2',
+617 silly install resolved     _shasum: '3ad4428763f05e2764dec1c67d868db275687817',
+617 silly install resolved     _from: 'gulp-rename@>=1.2.0 <2.0.0',
+617 silly install resolved     _npmVersion: '1.4.28',
+617 silly install resolved     _npmUser: { name: 'fractal', email: 'contact@wearefractal.com' },
+617 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '3ad4428763f05e2764dec1c67d868db275687817',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-rename/-/gulp-rename-1.2.2.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'async',
+617 silly install resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+617 silly install resolved     main: './lib/async',
+617 silly install resolved     author: { name: 'Caolan McMahon' },
+617 silly install resolved     version: '0.9.0',
+617 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/caolan/async.git' },
+617 silly install resolved     bugs: { url: 'https://github.com/caolan/async/issues' },
+617 silly install resolved     licenses: [ [Object] ],
+617 silly install resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+617 silly install resolved     jam: { main: 'lib/async.js', include: [Object] },
+617 silly install resolved     scripts: { test: 'nodeunit test/test-async.js' },
+617 silly install resolved     readme: '# Async.js\n\n[![Build Status via Travis CI](https://travis-ci.org/caolan/async.svg?branch=master)](https://travis-ci.org/caolan/async)\n\n\nAsync is a utility module which provides straight-forward, powerful functions\nfor working with asynchronous JavaScript. Although originally designed for\nuse with [Node.js](http://nodejs.org), it can also be used directly in the\nbrowser. Also supports [component](https://github.com/component/component).\n\nAsync provides around 20 functions that include the usual \'functional\'\nsuspects (`map`, `reduce`, `filter`, `each`…) as well as some common patterns\nfor asynchronous control flow (`parallel`, `series`, `waterfall`…). All these\nfunctions assume you follow the Node.js convention of providing a single\ncallback as the last argument of your `async` function.\n\n\n## Quick Examples\n\n```javascript\nasync.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n\nasync.filter([\'file1\',\'file2\',\'file3\'], fs.exists, function(results){\n    // results now equals an array of the existing files\n});\n\nasync.parallel([\n    function(){ ... },\n    function(){ ... }\n], callback);\n\nasync.series([\n    function(){ ... },\n    function(){ ... }\n]);\n```\n\nThere are many more functions available so take a look at the docs below for a\nfull list. This module aims to be comprehensive, so if you feel anything is\nmissing please create a GitHub issue for it.\n\n## Common Pitfalls\n\n### Binding a context to an iterator\n\nThis section is really about `bind`, not about `async`. If you are wondering how to\nmake `async` execute your iterators in a given context, or are confused as to why\na method of another library isn\'t working as an iterator, study this example:\n\n```js\n// Here is a simple object with an (unnecessarily roundabout) squaring method\nvar AsyncSquaringLibrary = {\n  squareExponent: 2,\n  square: function(number, callback){ \n    var result = Math.pow(number, this.squareExponent);\n    setTimeout(function(){\n      callback(null, result);\n    }, 200);\n  }\n};\n\nasync.map([1, 2, 3], AsyncSquaringLibrary.square, function(err, result){\n  // result is [NaN, NaN, NaN]\n  // This fails because the `this.squareExponent` expression in the square\n  // function is not evaluated in the context of AsyncSquaringLibrary, and is\n  // therefore undefined.\n});\n\nasync.map([1, 2, 3], AsyncSquaringLibrary.square.bind(AsyncSquaringLibrary), function(err, result){\n  // result is [1, 4, 9]\n  // With the help of bind we can attach a context to the iterator before\n  // passing it to async. Now the square function will be executed in its \n  // \'home\' AsyncSquaringLibrary context and the value of `this.squareExponent`\n  // will be as expected.\n});\n```\n\n## Download\n\nThe source is available for download from\n[GitHub](http://github.com/caolan/async).\nAlternatively, you can install using Node Package Manager (`npm`):\n\n    npm install async\n\n__Development:__ [async.js](https://github.com/caolan/async/raw/master/lib/async.js) - 29.6kb Uncompressed\n\n## In the Browser\n\nSo far it\'s been tested in IE6, IE7, IE8, FF3.6 and Chrome 5. \n\nUsage:\n\n```html\n<script type="text/javascript" src="async.js"></script>\n<script type="text/javascript">\n\n    async.map(data, asyncProcess, function(err, results){\n        alert(results);\n    });\n\n</script>\n```\n\n## Documentation\n\n### Collections\n\n* [`each`](#each)\n* [`eachSeries`](#eachSeries)\n* [`eachLimit`](#eachLimit)\n* [`map`](#map)\n* [`mapSeries`](#mapSeries)\n* [`mapLimit`](#mapLimit)\n* [`filter`](#filter)\n* [`filterSeries`](#filterSeries)\n* [`reject`](#reject)\n* [`rejectSeries`](#rejectSeries)\n* [`reduce`](#reduce)\n* [`reduceRight`](#reduceRight)\n* [`detect`](#detect)\n* [`detectSeries`](#detectSeries)\n* [`sortBy`](#sortBy)\n* [`some`](#some)\n* [`every`](#every)\n* [`concat`](#concat)\n* [`concatSeries`](#concatSeries)\n\n### Control Flow\n\n* [`series`](#seriestasks-callback)\n* [`parallel`](#parallel)\n* [`parallelLimit`](#parallellimittasks-limit-callback)\n* [`whilst`](#whilst)\n* [`doWhilst`](#doWhilst)\n* [`until`](#until)\n* [`doUntil`](#doUntil)\n* [`forever`](#forever)\n* [`waterfall`](#waterfall)\n* [`compose`](#compose)\n* [`seq`](#seq)\n* [`applyEach`](#applyEach)\n* [`applyEachSeries`](#applyEachSeries)\n* [`queue`](#queue)\n* [`priorityQueue`](#priorityQueue)\n* [`cargo`](#cargo)\n* [`auto`](#auto)\n* [`retry`](#retry)\n* [`iterator`](#iterator)\n* [`apply`](#apply)\n* [`nextTick`](#nextTick)\n* [`times`](#times)\n* [`timesSeries`](#timesSeries)\n\n### Utils\n\n* [`memoize`](#memoize)\n* [`unmemoize`](#unmemoize)\n* [`log`](#log)\n* [`dir`](#dir)\n* [`noConflict`](#noConflict)\n\n\n## Collections\n\n<a name="forEach" />\n<a name="each" />\n### each(arr, iterator, callback)\n\nApplies the function `iterator` to each item in `arr`, in parallel.\nThe `iterator` is called with an item from the list, and a callback for when it\nhas finished. If the `iterator` passes an error to its `callback`, the main\n`callback` (for the `each` function) is immediately called with the error.\n\nNote, that since this function applies `iterator` to each item in parallel,\nthere is no guarantee that the iterator functions will complete in order.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `iterator(item, callback)` - A function to apply to each item in `arr`.\n  The iterator is passed a `callback(err)` which must be called once it has \n  completed. If no error has occured, the `callback` should be run without \n  arguments or with an explicit `null` argument.\n* `callback(err)` - A callback which is called when all `iterator` functions\n  have finished, or an error occurs.\n\n__Examples__\n\n\n```js\n// assuming openFiles is an array of file names and saveFile is a function\n// to save the modified contents of that file:\n\nasync.each(openFiles, saveFile, function(err){\n    // if any of the saves produced an error, err would equal that error\n});\n```\n\n```js\n// assuming openFiles is an array of file names \n\nasync.each(openFiles, function( file, callback) {\n  \n  // Perform operation on file here.\n  console.log(\'Processing file \' + file);\n  \n  if( file.length > 32 ) {\n    console.log(\'This file name is too long\');\n    callback(\'File name too long\');\n  } else {\n    // Do work to process file here\n    console.log(\'File processed\');\n    callback();\n  }\n}, function(err){\n    // if any of the file processing produced an error, err would equal that error\n    if( err ) {\n      // One of the iterations produced an error.\n      // All processing will now stop.\n      console.log(\'A file failed to process\');\n    } else {\n      console.log(\'All files have been processed successfully\');\n    }\n});\n```\n\n---------------------------------------\n\n<a name="forEachSeries" />\n<a name="eachSeries" />\n### eachSeries(arr, iterator, callback)\n\nThe same as [`each`](#each), only `iterator` is applied to each item in `arr` in\nseries. The next `iterator` is only called once the current one has completed. \nThis means the `iterator` functions will complete in order.\n\n\n---------------------------------------\n\n<a name="forEachLimit" />\n<a name="eachLimit" />\n### eachLimit(arr, limit, iterator, callback)\n\nThe same as [`each`](#each), only no more than `limit` `iterator`s will be simultaneously \nrunning at any time.\n\nNote that the items in `arr` are not processed in batches, so there is no guarantee that \nthe first `limit` `iterator` functions will complete before any others are started.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `limit` - The maximum number of `iterator`s to run at any time.\n* `iterator(item, callback)` - A function to apply to each item in `arr`.\n  The iterator is passed a `callback(err)` which must be called once it has \n  completed. If no error has occured, the callback should be run without \n  arguments or with an explicit `null` argument.\n* `callback(err)` - A callback which is called when all `iterator` functions\n  have finished, or an error occurs.\n\n__Example__\n\n```js\n// Assume documents is an array of JSON objects and requestApi is a\n// function that interacts with a rate-limited REST api.\n\nasync.eachLimit(documents, 20, requestApi, function(err){\n    // if any of the saves produced an error, err would equal that error\n});\n```\n\n---------------------------------------\n\n<a name="map" />\n### map(arr, iterator, callback)\n\nProduces a new array of values by mapping each value in `arr` through\nthe `iterator` function. The `iterator` is called with an item from `arr` and a\ncallback for when it has finished processing. Each of these callback takes 2 arguments: \nan `error`, and the transformed item from `arr`. If `iterator` passes an error to this \ncallback, the main `callback` (for the `map` function) is immediately called with the error.\n\nNote, that since this function applies the `iterator` to each item in parallel,\nthere is no guarantee that the `iterator` functions will complete in order. \nHowever, the results array will be in the same order as the original `arr`.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `iterator(item, callback)` - A function to apply to each item in `arr`.\n  The iterator is passed a `callback(err, transformed)` which must be called once \n  it has completed with an error (which can be `null`) and a transformed item.\n* `callback(err, results)` - A callback which is called when all `iterator`\n  functions have finished, or an error occurs. Results is an array of the\n  transformed items from the `arr`.\n\n__Example__\n\n```js\nasync.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n```\n\n---------------------------------------\n\n<a name="mapSeries" />\n### mapSeries(arr, iterator, callback)\n\nThe same as [`map`](#map), only the `iterator` is applied to each item in `arr` in\nseries. The next `iterator` is only called once the current one has completed. \nThe results array will be in the same order as the original.\n\n\n---------------------------------------\n\n<a name="mapLimit" />\n### mapLimit(arr, limit, iterator, callback)\n\nThe same as [`map`](#map), only no more than `limit` `iterator`s will be simultaneously \nrunning at any time.\n\nNote that the items are not processed in batches, so there is no guarantee that \nthe first `limit` `iterator` functions will complete before any others are started.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `limit` - The maximum number of `iterator`s to run at any time.\n* `iterator(item, callback)` - A function to apply to each item in `arr`.\n  The iterator is passed a `callback(err, transformed)` which must be called once \n  it has completed with an error (which can be `null`) and a transformed item.\n* `callback(err, results)` - A callback which is called when all `iterator`\n  calls have finished, or an error occurs. The result is an array of the\n  transformed items from the original `arr`.\n\n__Example__\n\n```js\nasync.mapLimit([\'file1\',\'file2\',\'file3\'], 1, fs.stat, function(err, results){\n    // results is now an array of stats for each file\n});\n```\n\n---------------------------------------\n\n<a name="select" />\n<a name="filter" />\n### filter(arr, iterator, callback)\n\n__Alias:__ `select`\n\nReturns a new array of all the values in `arr` which pass an async truth test.\n_The callback for each `iterator` call only accepts a single argument of `true` or\n`false`; it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like `fs.exists`. This operation is\nperformed in parallel, but the results array will be in the same order as the\noriginal.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `iterator(item, callback)` - A truth test to apply to each item in `arr`.\n  The `iterator` is passed a `callback(truthValue)`, which must be called with a \n  boolean argument once it has completed.\n* `callback(results)` - A callback which is called after all the `iterator`\n  functions have finished.\n\n__Example__\n\n```js\nasync.filter([\'file1\',\'file2\',\'file3\'], fs.exists, function(results){\n    // results now equals an array of the existing files\n});\n```\n\n---------------------------------------\n\n<a name="selectSeries" />\n<a name="filterSeries" />\n### filterSeries(arr, iterator, callback)\n\n__Alias:__ `selectSeries`\n\nThe same as [`filter`](#filter) only the `iterator` is applied to each item in `arr` in\nseries. The next `iterator` is only called once the current one has completed. \nThe results array will be in the same order as the original.\n\n---------------------------------------\n\n<a name="reject" />\n### reject(arr, iterator, callback)\n\nThe opposite of [`filter`](#filter). Removes values that pass an `async` truth test.\n\n---------------------------------------\n\n<a name="rejectSeries" />\n### rejectSeries(arr, iterator, callback)\n\nThe same as [`reject`](#reject), only the `iterator` is applied to each item in `arr`\nin series.\n\n\n---------------------------------------\n\n<a name="reduce" />\n### reduce(arr, memo, iterator, callback)\n\n__Aliases:__ `inject`, `foldl`\n\nReduces `arr` into a single value using an async `iterator` to return\neach successive step. `memo` is the initial state of the reduction. \nThis function only operates in series. \n\nFor performance reasons, it may make sense to split a call to this function into \na parallel map, and then use the normal `Array.prototype.reduce` on the results. \nThis function is for situations where each step in the reduction needs to be async; \nif you can get the data before reducing it, then it\'s probably a good idea to do so.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `memo` - The initial state of the reduction.\n* `iterator(memo, item, callback)` - A function applied to each item in the\n  array to produce the next step in the reduction. The `iterator` is passed a\n  `callback(err, reduction)` which accepts an optional error as its first \n  argument, and the state of the reduction as the second. If an error is \n  passed to the callback, the reduction is stopped and the main `callback` is \n  immediately called with the error.\n* `callback(err, result)` - A callback which is called after all the `iterator`\n  functions have finished. Result is the reduced value.\n\n__Example__\n\n```js\nasync.reduce([1,2,3], 0, function(memo, item, callback){\n    // pointless async:\n    process.nextTick(function(){\n        callback(null, memo + item)\n    });\n}, function(err, result){\n    // result is now equal to the last value of memo, which is 6\n});\n```\n\n---------------------------------------\n\n<a name="reduceRight" />\n### reduceRight(arr, memo, iterator, callback)\n\n__Alias:__ `foldr`\n\nSame as [`reduce`](#reduce), only operates on `arr` in reverse order.\n\n\n---------------------------------------\n\n<a name="detect" />\n### detect(arr, iterator, callback)\n\nReturns the first value in `arr` that passes an async truth test. The\n`iterator` is applied in parallel, meaning the first iterator to return `true` will\nfire the detect `callback` with that result. That means the result might not be\nthe first item in the original `arr` (in terms of order) that passes the test.\n\nIf order within the original `arr` is important, then look at [`detectSeries`](#detectSeries).\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `iterator(item, callback)` - A truth test to apply to each item in `arr`.\n  The iterator is passed a `callback(truthValue)` which must be called with a \n  boolean argument once it has completed.\n* `callback(result)` - A callback which is called as soon as any iterator returns\n  `true`, or after all the `iterator` functions have finished. Result will be\n  the first item in the array that passes the truth test (iterator) or the\n  value `undefined` if none passed.\n\n__Example__\n\n```js\nasync.detect([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // result now equals the first file in the list that exists\n});\n```\n\n---------------------------------------\n\n<a name="detectSeries" />\n### detectSeries(arr, iterator, callback)\n\nThe same as [`detect`](#detect), only the `iterator` is applied to each item in `arr`\nin series. This means the result is always the first in the original `arr` (in\nterms of array order) that passes the truth test.\n\n\n---------------------------------------\n\n<a name="sortBy" />\n### sortBy(arr, iterator, callback)\n\nSorts a list by the results of running each `arr` value through an async `iterator`.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `iterator(item, callback)` - A function to apply to each item in `arr`.\n  The iterator is passed a `callback(err, sortValue)` which must be called once it\n  has completed with an error (which can be `null`) and a value to use as the sort\n  criteria.\n* `callback(err, results)` - A callback which is called after all the `iterator`\n  functions have finished, or an error occurs. Results is the items from\n  the original `arr` sorted by the values returned by the `iterator` calls.\n\n__Example__\n\n```js\nasync.sortBy([\'file1\',\'file2\',\'file3\'], function(file, callback){\n    fs.stat(file, function(err, stats){\n        callback(err, stats.mtime);\n    });\n}, function(err, results){\n    // results is now the original array of files sorted by\n    // modified date\n});\n```\n\n__Sort Order__\n\nBy modifying the callback parameter the sorting order can be influenced:\n\n```js\n//ascending order\nasync.sortBy([1,9,3,5], function(x, callback){\n    callback(err, x);\n}, function(err,result){\n    //result callback\n} );\n\n//descending order\nasync.sortBy([1,9,3,5], function(x, callback){\n    callback(err, x*-1);    //<- x*-1 instead of x, turns the order around\n}, function(err,result){\n    //result callback\n} );\n```\n\n---------------------------------------\n\n<a name="some" />\n### some(arr, iterator, callback)\n\n__Alias:__ `any`\n\nReturns `true` if at least one element in the `arr` satisfies an async test.\n_The callback for each iterator call only accepts a single argument of `true` or\n`false`; it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like `fs.exists`. Once any iterator\ncall returns `true`, the main `callback` is immediately called.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `iterator(item, callback)` - A truth test to apply to each item in the array\n  in parallel. The iterator is passed a callback(truthValue) which must be \n  called with a boolean argument once it has completed.\n* `callback(result)` - A callback which is called as soon as any iterator returns\n  `true`, or after all the iterator functions have finished. Result will be\n  either `true` or `false` depending on the values of the async tests.\n\n__Example__\n\n```js\nasync.some([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // if result is true then at least one of the files exists\n});\n```\n\n---------------------------------------\n\n<a name="every" />\n### every(arr, iterator, callback)\n\n__Alias:__ `all`\n\nReturns `true` if every element in `arr` satisfies an async test.\n_The callback for each `iterator` call only accepts a single argument of `true` or\n`false`; it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like `fs.exists`.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `iterator(item, callback)` - A truth test to apply to each item in the array\n  in parallel. The iterator is passed a callback(truthValue) which must be \n  called with a  boolean argument once it has completed.\n* `callback(result)` - A callback which is called after all the `iterator`\n  functions have finished. Result will be either `true` or `false` depending on\n  the values of the async tests.\n\n__Example__\n\n```js\nasync.every([\'file1\',\'file2\',\'file3\'], fs.exists, function(result){\n    // if result is true then every file exists\n});\n```\n\n---------------------------------------\n\n<a name="concat" />\n### concat(arr, iterator, callback)\n\nApplies `iterator` to each item in `arr`, concatenating the results. Returns the\nconcatenated list. The `iterator`s are called in parallel, and the results are\nconcatenated as they return. There is no guarantee that the results array will\nbe returned in the original order of `arr` passed to the `iterator` function.\n\n__Arguments__\n\n* `arr` - An array to iterate over.\n* `iterator(item, callback)` - A function to apply to each item in `arr`.\n  The iterator is passed a `callback(err, results)` which must be called once it \n  has completed with an error (which can be `null`) and an array of results.\n* `callback(err, results)` - A callback which is called after all the `iterator`\n  functions have finished, or an error occurs. Results is an array containing\n  the concatenated results of the `iterator` function.\n\n__Example__\n\n```js\nasync.concat([\'dir1\',\'dir2\',\'dir3\'], fs.readdir, function(err, files){\n    // files is now a list of filenames that exist in the 3 directories\n});\n```\n\n---------------------------------------\n\n<a name="concatSeries" />\n### concatSeries(arr, iterator, callback)\n\nSame as [`concat`](#concat), but executes in series instead of parallel.\n\n\n## Control Flow\n\n<a name="series" />\n### series(tasks, [callback])\n\nRun the functions in the `tasks` array in series, each one running once the previous\nfunction has completed. If any functions in the series pass an error to its\ncallback, no more functions are run, and `callback` is immediately called with the value of the error. \nOtherwise, `callback` receives an array of results when `tasks` have completed.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function, and the results will be passed to the final `callback` as an object\ninstead of an array. This can be a more readable way of handling results from\n[`series`](#series).\n\n**Note** that while many implementations preserve the order of object properties, the\n[ECMAScript Language Specifcation](http://www.ecma-international.org/ecma-262/5.1/#sec-8.6) \nexplicitly states that\n\n> The mechanics and order of enumerating the properties is not specified.\n\nSo if you rely on the order in which your series of functions are executed, and want\nthis to work on all platforms, consider using an array. \n\n__Arguments__\n\n* `tasks` - An array or object containing functions to run, each function is passed\n  a `callback(err, result)` it must call on completion with an error `err` (which can\n  be `null`) and an optional `result` value.\n* `callback(err, results)` - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the `task` callbacks.\n\n__Example__\n\n```js\nasync.series([\n    function(callback){\n        // do some stuff ...\n        callback(null, \'one\');\n    },\n    function(callback){\n        // do some more stuff ...\n        callback(null, \'two\');\n    }\n],\n// optional callback\nfunction(err, results){\n    // results is now equal to [\'one\', \'two\']\n});\n\n\n// an example using an object instead of an array\nasync.series({\n    one: function(callback){\n        setTimeout(function(){\n            callback(null, 1);\n        }, 200);\n    },\n    two: function(callback){\n        setTimeout(function(){\n            callback(null, 2);\n        }, 100);\n    }\n},\nfunction(err, results) {\n    // results is now equal to: {one: 1, two: 2}\n});\n```\n\n---------------------------------------\n\n<a name="parallel" />\n### parallel(tasks, [callback])\n\nRun the `tasks` array of functions in parallel, without waiting until the previous\nfunction has completed. If any of the functions pass an error to its\ncallback, the main `callback` is immediately called with the value of the error.\nOnce the `tasks` have completed, the results are passed to the final `callback` as an\narray.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final `callback` as an object\ninstead of an array. This can be a more readable way of handling results from\n[`parallel`](#parallel).\n\n\n__Arguments__\n\n* `tasks` - An array or object containing functions to run. Each function is passed \n  a `callback(err, result)` which it must call on completion with an error `err` \n  (which can be `null`) and an optional `result` value.\n* `callback(err, results)` - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the task callbacks.\n\n__Example__\n\n```js\nasync.parallel([\n    function(callback){\n        setTimeout(function(){\n            callback(null, \'one\');\n        }, 200);\n    },\n    function(callback){\n        setTimeout(function(){\n            callback(null, \'two\');\n        }, 100);\n    }\n],\n// optional callback\nfunction(err, results){\n    // the results array will equal [\'one\',\'two\'] even though\n    // the second function had a shorter timeout.\n});\n\n\n// an example using an object instead of an array\nasync.parallel({\n    one: function(callback){\n        setTimeout(function(){\n            callback(null, 1);\n        }, 200);\n    },\n    two: function(callback){\n        setTimeout(function(){\n            callback(null, 2);\n        }, 100);\n    }\n},\nfunction(err, results) {\n    // results is now equals to: {one: 1, two: 2}\n});\n```\n\n---------------------------------------\n\n<a name="parallelLimit" />\n### parallelLimit(tasks, limit, [callback])\n\nThe same as [`parallel`](#parallel), only `tasks` are executed in parallel \nwith a maximum of `limit` tasks executing at any time.\n\nNote that the `tasks` are not executed in batches, so there is no guarantee that \nthe first `limit` tasks will complete before any others are started.\n\n__Arguments__\n\n* `tasks` - An array or object containing functions to run, each function is passed \n  a `callback(err, result)` it must call on completion with an error `err` (which can\n  be `null`) and an optional `result` value.\n* `limit` - The maximum number of `tasks` to run at any time.\n* `callback(err, results)` - An optional callback to run once all the functions\n  have completed. This function gets a results array (or object) containing all \n  the result arguments passed to the `task` callbacks.\n\n---------------------------------------\n\n<a name="whilst" />\n### whilst(test, fn, callback)\n\nRepeatedly call `fn`, while `test` returns `true`. Calls `callback` when stopped,\nor an error occurs.\n\n__Arguments__\n\n* `test()` - synchronous truth test to perform before each execution of `fn`.\n* `fn(callback)` - A function which is called each time `test` passes. The function is\n  passed a `callback(err)`, which must be called once it has completed with an \n  optional `err` argument.\n* `callback(err)` - A callback which is called after the test fails and repeated\n  execution of `fn` has stopped.\n\n__Example__\n\n```js\nvar count = 0;\n\nasync.whilst(\n    function () { return count < 5; },\n    function (callback) {\n        count++;\n        setTimeout(callback, 1000);\n    },\n    function (err) {\n        // 5 seconds have passed\n    }\n);\n```\n\n---------------------------------------\n\n<a name="doWhilst" />\n### doWhilst(fn, test, callback)\n\nThe post-check version of [`whilst`](#whilst). To reflect the difference in \nthe order of operations, the arguments `test` and `fn` are switched. \n\n`doWhilst` is to `whilst` as `do while` is to `while` in plain JavaScript.\n\n---------------------------------------\n\n<a name="until" />\n### until(test, fn, callback)\n\nRepeatedly call `fn` until `test` returns `true`. Calls `callback` when stopped,\nor an error occurs.\n\nThe inverse of [`whilst`](#whilst).\n\n---------------------------------------\n\n<a name="doUntil" />\n### doUntil(fn, test, callback)\n\nLike [`doWhilst`](#doWhilst), except the `test` is inverted. Note the argument ordering differs from `until`.\n\n---------------------------------------\n\n<a name="forever" />\n### forever(fn, errback)\n\nCalls the asynchronous function `fn` with a callback parameter that allows it to\ncall itself again, in series, indefinitely.\n\nIf an error is passed to the callback then `errback` is called with the\nerror, and execution stops, otherwise it will never be called.\n\n```js\nasync.forever(\n    function(next) {\n        // next is suitable for passing to things that need a callback(err [, whatever]);\n        // it will result in this function being called again.\n    },\n    function(err) {\n        // if next is called with a value in its first parameter, it will appear\n        // in here as \'err\', and execution will stop.\n    }\n);\n```\n\n---------------------------------------\n\n<a name="waterfall" />\n### waterfall(tasks, [callback])\n\nRuns the `tasks` array of functions in series, each passing their results to the next in\nthe array. However, if any of the `tasks` pass an error to their own callback, the\nnext function is not executed, and the main `callback` is immediately called with\nthe error.\n\n__Arguments__\n\n* `tasks` - An array of functions to run, each function is passed a \n  `callback(err, result1, result2, ...)` it must call on completion. The first\n  argument is an error (which can be `null`) and any further arguments will be \n  passed as arguments in order to the next task.\n* `callback(err, [results])` - An optional callback to run once all the functions\n  have completed. This will be passed the results of the last task\'s callback.\n\n\n\n__Example__\n\n```js\nasync.waterfall([\n    function(callback){\n        callback(null, \'one\', \'two\');\n    },\n    function(arg1, arg2, callback){\n      // arg1 now equals \'one\' and arg2 now equals \'two\'\n        callback(null, \'three\');\n    },\n    function(arg1, callback){\n        // arg1 now equals \'three\'\n        callback(null, \'done\');\n    }\n], function (err, result) {\n   // result now equals \'done\'    \n});\n```\n\n---------------------------------------\n<a name="compose" />\n### compose(fn1, fn2...)\n\nCreates a function which is a composition of the passed asynchronous\nfunctions. Each function consumes the return value of the function that\nfollows. Composing functions `f()`, `g()`, and `h()` would produce the result of\n`f(g(h()))`, only this version uses callbacks to obtain the return values.\n\nEach function is executed with the `this` binding of the composed function.\n\n__Arguments__\n\n* `functions...` - the asynchronous functions to compose\n\n\n__Example__\n\n```js\nfunction add1(n, callback) {\n    setTimeout(function () {\n        callback(null, n + 1);\n    }, 10);\n}\n\nfunction mul3(n, callback) {\n    setTimeout(function () {\n        callback(null, n * 3);\n    }, 10);\n}\n\nvar add1mul3 = async.compose(mul3, add1);\n\nadd1mul3(4, function (err, result) {\n   // result now equals 15\n});\n```\n\n---------------------------------------\n<a name="seq" />\n### seq(fn1, fn2...)\n\nVersion of the compose function that is more natural to read.\nEach following function consumes the return value of the latter function. \n\nEach function is executed with the `this` binding of the composed function.\n\n__Arguments__\n\n* functions... - the asynchronous functions to compose\n\n\n__Example__\n\n```js\n// Requires lodash (or underscore), express3 and dresende\'s orm2.\n// Part of an app, that fetches cats of the logged user.\n// This example uses `seq` function to avoid overnesting and error \n// handling clutter.\napp.get(\'/cats\', function(request, response) {\n  function handleError(err, data, callback) {\n    if (err) {\n      console.error(err);\n      response.json({ status: \'error\', message: err.message });\n    }\n    else {\n      callback(data);\n    }\n  }\n  var User = request.models.User;\n  async.seq(\n    _.bind(User.get, User),  // \'User.get\' has signature (id, callback(err, data))\n    handleError,\n    function(user, fn) {\n      user.getCats(fn);      // \'getCats\' has signature (callback(err, data))\n    },\n    handleError,\n    function(cats) {\n      response.json({ status: \'ok\', message: \'Cats found\', data: cats });\n    }\n  )(req.session.user_id);\n  }\n});\n```\n\n---------------------------------------\n<a name="applyEach" />\n### applyEach(fns, args..., callback)\n\nApplies the provided arguments to each function in the array, calling \n`callback` after all functions have completed. If you only provide the first\nargument, then it will return a function which lets you pass in the\narguments as if it were a single function call.\n\n__Arguments__\n\n* `fns` - the asynchronous functions to all call with the same arguments\n* `args...` - any number of separate arguments to pass to the function\n* `callback` - the final argument should be the callback, called when all\n  functions have completed processing\n\n\n__Example__\n\n```js\nasync.applyEach([enableSearch, updateSchema], \'bucket\', callback);\n\n// partial application example:\nasync.each(\n    buckets,\n    async.applyEach([enableSearch, updateSchema]),\n    callback\n);\n```\n\n---------------------------------------\n\n<a name="applyEachSeries" />\n### applyEachSeries(arr, iterator, callback)\n\nThe same as [`applyEach`](#applyEach) only the functions are applied in series.\n\n---------------------------------------\n\n<a name="queue" />\n### queue(worker, concurrency)\n\nCreates a `queue` object with the specified `concurrency`. Tasks added to the\n`queue` are processed in parallel (up to the `concurrency` limit). If all\n`worker`s are in progress, the task is queued until one becomes available. \nOnce a `worker` completes a `task`, that `task`\'s callback is called.\n\n__Arguments__\n\n* `worker(task, callback)` - An asynchronous function for processing a queued\n  task, which must call its `callback(err)` argument when finished, with an \n  optional `error` as an argument.\n* `concurrency` - An `integer` for determining how many `worker` functions should be\n  run in parallel.\n\n__Queue objects__\n\nThe `queue` object returned by this function has the following properties and\nmethods:\n\n* `length()` - a function returning the number of items waiting to be processed.\n* `started` - a function returning whether or not any items have been pushed and processed by the queue\n* `running()` - a function returning the number of items currently being processed.\n* `idle()` - a function returning false if there are items waiting or being processed, or true if not.\n* `concurrency` - an integer for determining how many `worker` functions should be\n  run in parallel. This property can be changed after a `queue` is created to\n  alter the concurrency on-the-fly.\n* `push(task, [callback])` - add a new task to the `queue`. Calls `callback` once \n  the `worker` has finished processing the task. Instead of a single task, a `tasks` array\n  can be submitted. The respective callback is used for every task in the list.\n* `unshift(task, [callback])` - add a new task to the front of the `queue`.\n* `saturated` - a callback that is called when the `queue` length hits the `concurrency` limit, \n   and further tasks will be queued.\n* `empty` - a callback that is called when the last item from the `queue` is given to a `worker`.\n* `drain` - a callback that is called when the last item from the `queue` has returned from the `worker`.\n* `paused` - a boolean for determining whether the queue is in a paused state\n* `pause()` - a function that pauses the processing of tasks until `resume()` is called.\n* `resume()` - a function that resumes the processing of queued tasks when the queue is paused.\n* `kill()` - a function that empties remaining tasks from the queue forcing it to go idle.\n\n__Example__\n\n```js\n// create a queue object with concurrency 2\n\nvar q = async.queue(function (task, callback) {\n    console.log(\'hello \' + task.name);\n    callback();\n}, 2);\n\n\n// assign a callback\nq.drain = function() {\n    console.log(\'all items have been processed\');\n}\n\n// add some items to the queue\n\nq.push({name: \'foo\'}, function (err) {\n    console.log(\'finished processing foo\');\n});\nq.push({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\n\n// add some items to the queue (batch-wise)\n\nq.push([{name: \'baz\'},{name: \'bay\'},{name: \'bax\'}], function (err) {\n    console.log(\'finished processing bar\');\n});\n\n// add some items to the front of the queue\n\nq.unshift({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\n```\n\n\n---------------------------------------\n\n<a name="priorityQueue" />\n### priorityQueue(worker, concurrency)\n\nThe same as [`queue`](#queue) only tasks are assigned a priority and completed in ascending priority order. There are two differences between `queue` and `priorityQueue` objects:\n\n* `push(task, priority, [callback])` - `priority` should be a number. If an array of\n  `tasks` is given, all tasks will be assigned the same priority.\n* The `unshift` method was removed.\n\n---------------------------------------\n\n<a name="cargo" />\n### cargo(worker, [payload])\n\nCreates a `cargo` object with the specified payload. Tasks added to the\ncargo will be processed altogether (up to the `payload` limit). If the\n`worker` is in progress, the task is queued until it becomes available. Once\nthe `worker` has completed some tasks, each callback of those tasks is called.\nCheck out [this animation](https://camo.githubusercontent.com/6bbd36f4cf5b35a0f11a96dcd2e97711ffc2fb37/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f313637363837312f36383130382f62626330636662302d356632392d313165322d393734662d3333393763363464633835382e676966) for how `cargo` and `queue` work.\n\nWhile [queue](#queue) passes only one task to one of a group of workers\nat a time, cargo passes an array of tasks to a single worker, repeating\nwhen the worker is finished.\n\n__Arguments__\n\n* `worker(tasks, callback)` - An asynchronous function for processing an array of\n  queued tasks, which must call its `callback(err)` argument when finished, with \n  an optional `err` argument.\n* `payload` - An optional `integer` for determining how many tasks should be\n  processed per round; if omitted, the default is unlimited.\n\n__Cargo objects__\n\nThe `cargo` object returned by this function has the following properties and\nmethods:\n\n* `length()` - A function returning the number of items waiting to be processed.\n* `payload` - An `integer` for determining how many tasks should be\n  process per round. This property can be changed after a `cargo` is created to\n  alter the payload on-the-fly.\n* `push(task, [callback])` - Adds `task` to the `queue`. The callback is called\n  once the `worker` has finished processing the task. Instead of a single task, an array of `tasks` \n  can be submitted. The respective callback is used for every task in the list.\n* `saturated` - A callback that is called when the `queue.length()` hits the concurrency and further tasks will be queued.\n* `empty` - A callback that is called when the last item from the `queue` is given to a `worker`.\n* `drain` - A callback that is called when the last item from the `queue` has returned from the `worker`.\n\n__Example__\n\n```js\n// create a cargo object with payload 2\n\nvar cargo = async.cargo(function (tasks, callback) {\n    for(var i=0; i<tasks.length; i++){\n      console.log(\'hello \' + tasks[i].name);\n    }\n    callback();\n}, 2);\n\n\n// add some items\n\ncargo.push({name: \'foo\'}, function (err) {\n    console.log(\'finished processing foo\');\n});\ncargo.push({name: \'bar\'}, function (err) {\n    console.log(\'finished processing bar\');\n});\ncargo.push({name: \'baz\'}, function (err) {\n    console.log(\'finished processing baz\');\n});\n```\n\n---------------------------------------\n\n<a name="auto" />\n### auto(tasks, [callback])\n\nDetermines the best order for running the functions in `tasks`, based on their \nrequirements. Each function can optionally depend on other functions being completed \nfirst, and each function is run as soon as its requirements are satisfied. \n\nIf any of the functions pass an error to their callback, it will not \ncomplete (so any other functions depending on it will not run), and the main \n`callback` is immediately called with the error. Functions also receive an \nobject containing the results of functions which have completed so far.\n\nNote, all functions are called with a `results` object as a second argument, \nso it is unsafe to pass functions in the `tasks` object which cannot handle the\nextra argument. \n\nFor example, this snippet of code:\n\n```js\nasync.auto({\n  readData: async.apply(fs.readFile, \'data.txt\', \'utf-8\')\n}, callback);\n```\n\nwill have the effect of calling `readFile` with the results object as the last\nargument, which will fail:\n\n```js\nfs.readFile(\'data.txt\', \'utf-8\', cb, {});\n```\n\nInstead, wrap the call to `readFile` in a function which does not forward the \n`results` object:\n\n```js\nasync.auto({\n  readData: function(cb, results){\n    fs.readFile(\'data.txt\', \'utf-8\', cb);\n  }\n}, callback);\n```\n\n__Arguments__\n\n* `tasks` - An object. Each of its properties is either a function or an array of\n  requirements, with the function itself the last item in the array. The object\'s key\n  of a property serves as the name of the task defined by that property,\n  i.e. can be used when specifying requirements for other tasks.\n  The function receives two arguments: (1) a `callback(err, result)` which must be \n  called when finished, passing an `error` (which can be `null`) and the result of \n  the function\'s execution, and (2) a `results` object, containing the results of\n  the previously executed functions.\n* `callback(err, results)` - An optional callback which is called when all the\n  tasks have been completed. It receives the `err` argument if any `tasks` \n  pass an error to their callback. Results are always returned; however, if \n  an error occurs, no further `tasks` will be performed, and the results\n  object will only contain partial results.\n\n\n__Example__\n\n```js\nasync.auto({\n    get_data: function(callback){\n        console.log(\'in get_data\');\n        // async code to get some data\n        callback(null, \'data\', \'converted to array\');\n    },\n    make_folder: function(callback){\n        console.log(\'in make_folder\');\n        // async code to create a directory to store a file in\n        // this is run at the same time as getting the data\n        callback(null, \'folder\');\n    },\n    write_file: [\'get_data\', \'make_folder\', function(callback, results){\n        console.log(\'in write_file\', JSON.stringify(results));\n        // once there is some data and the directory exists,\n        // write the data to a file in the directory\n        callback(null, \'filename\');\n    }],\n    email_link: [\'write_file\', function(callback, results){\n        console.log(\'in email_link\', JSON.stringify(results));\n        // once the file is written let\'s email a link to it...\n        // results.write_file contains the filename returned by write_file.\n        callback(null, {\'file\':results.write_file, \'email\':\'user@example.com\'});\n    }]\n}, function(err, results) {\n    console.log(\'err = \', err);\n    console.log(\'results = \', results);\n});\n```\n\nThis is a fairly trivial example, but to do this using the basic parallel and\nseries functions would look like this:\n\n```js\nasync.parallel([\n    function(callback){\n        console.log(\'in get_data\');\n        // async code to get some data\n        callback(null, \'data\', \'converted to array\');\n    },\n    function(callback){\n        console.log(\'in make_folder\');\n        // async code to create a directory to store a file in\n        // this is run at the same time as getting the data\n        callback(null, \'folder\');\n    }\n],\nfunction(err, results){\n    async.series([\n        function(callback){\n            console.log(\'in write_file\', JSON.stringify(results));\n            // once there is some data and the directory exists,\n            // write the data to a file in the directory\n            results.push(\'filename\');\n            callback(null);\n        },\n        function(callback){\n            console.log(\'in email_link\', JSON.stringify(results));\n            // once the file is written let\'s email a link to it...\n            callback(null, {\'file\':results.pop(), \'email\':\'user@example.com\'});\n        }\n    ]);\n});\n```\n\nFor a complicated series of `async` tasks, using the [`auto`](#auto) function makes adding\nnew tasks much easier (and the code more readable).\n\n\n---------------------------------------\n\n<a name="retry" />\n### retry([times = 5], task, [callback])\n\nAttempts to get a successful response from `task` no more than `times` times before\nreturning an error. If the task is successful, the `callback` will be passed the result\nof the successfull task. If all attemps fail, the callback will be passed the error and\nresult (if any) of the final attempt.\n\n__Arguments__\n\n* `times` - An integer indicating how many times to attempt the `task` before giving up. Defaults to 5.\n* `task(callback, results)` - A function which receives two arguments: (1) a `callback(err, result)`\n  which must be called when finished, passing `err` (which can be `null`) and the `result` of \n  the function\'s execution, and (2) a `results` object, containing the results of\n  the previously executed functions (if nested inside another control flow).\n* `callback(err, results)` - An optional callback which is called when the\n  task has succeeded, or after the final failed attempt. It receives the `err` and `result` arguments of the last attempt at completing the `task`.\n\nThe [`retry`](#retry) function can be used as a stand-alone control flow by passing a\ncallback, as shown below:\n\n```js\nasync.retry(3, apiMethod, function(err, result) {\n    // do something with the result\n});\n```\n\nIt can also be embeded within other control flow functions to retry individual methods\nthat are not as reliable, like this:\n\n```js\nasync.auto({\n    users: api.getUsers.bind(api),\n    payments: async.retry(3, api.getPayments.bind(api))\n}, function(err, results) {\n  // do something with the results\n});\n```\n\n\n---------------------------------------\n\n<a name="iterator" />\n### iterator(tasks)\n\nCreates an iterator function which calls the next function in the `tasks` array,\nreturning a continuation to call the next one after that. It\'s also possible to\n“peek” at the next iterator with `iterator.next()`.\n\nThis function is used internally by the `async` module, but can be useful when\nyou want to manually control the flow of functions in series.\n\n__Arguments__\n\n* `tasks` - An array of functions to run.\n\n__Example__\n\n```js\nvar iterator = async.iterator([\n    function(){ sys.p(\'one\'); },\n    function(){ sys.p(\'two\'); },\n    function(){ sys.p(\'three\'); }\n]);\n\nnode> var iterator2 = iterator();\n\'one\'\nnode> var iterator3 = iterator2();\n\'two\'\nnode> iterator3();\n\'three\'\nnode> var nextfn = iterator2.next();\nnode> nextfn();\n\'three\'\n```\n\n---------------------------------------\n\n<a name="apply" />\n### apply(function, arguments..)\n\nCreates a continuation function with some arguments already applied. \n\nUseful as a shorthand when combined with other control flow functions. Any arguments\npassed to the returned function are added to the arguments originally passed\nto apply.\n\n__Arguments__\n\n* `function` - The function you want to eventually apply all arguments to.\n* `arguments...` - Any number of arguments to automatically apply when the\n  continuation is called.\n\n__Example__\n\n```js\n// using apply\n\nasync.parallel([\n    async.apply(fs.writeFile, \'testfile1\', \'test1\'),\n    async.apply(fs.writeFile, \'testfile2\', \'test2\'),\n]);\n\n\n// the same process without using apply\n\nasync.parallel([\n    function(callback){\n        fs.writeFile(\'testfile1\', \'test1\', callback);\n    },\n    function(callback){\n        fs.writeFile(\'testfile2\', \'test2\', callback);\n    }\n]);\n```\n\nIt\'s possible to pass any number of additional arguments when calling the\ncontinuation:\n\n```js\nnode> var fn = async.apply(sys.puts, \'one\');\nnode> fn(\'two\', \'three\');\none\ntwo\nthree\n```\n\n---------------------------------------\n\n<a name="nextTick" />\n### nextTick(callback)\n\nCalls `callback` on a later loop around the event loop. In Node.js this just\ncalls `process.nextTick`; in the browser it falls back to `setImmediate(callback)`\nif available, otherwise `setTimeout(callback, 0)`, which means other higher priority\nevents may precede the execution of `callback`.\n\nThis is used internally for browser-compatibility purposes.\n\n__Arguments__\n\n* `callback` - The function to call on a later loop around the event loop.\n\n__Example__\n\n```js\nvar call_order = [];\nasync.nextTick(function(){\n    call_order.push(\'two\');\n    // call_order now equals [\'one\',\'two\']\n});\ncall_order.push(\'one\')\n```\n\n<a name="times" />\n### times(n, callback)\n\nCalls the `callback` function `n` times, and accumulates results in the same manner\nyou would use with [`map`](#map).\n\n__Arguments__\n\n* `n` - The number of times to run the function.\n* `callback` - The function to call `n` times.\n\n__Example__\n\n```js\n// Pretend this is some complicated async factory\nvar createUser = function(id, callback) {\n  callback(null, {\n    id: \'user\' + id\n  })\n}\n// generate 5 users\nasync.times(5, function(n, next){\n    createUser(n, function(err, user) {\n      next(err, user)\n    })\n}, function(err, users) {\n  // we should now have 5 users\n});\n```\n\n<a name="timesSeries" />\n### timesSeries(n, callback)\n\nThe same as [`times`](#times), only the iterator is applied to each item in `arr` in\nseries. The next `iterator` is only called once the current one has completed. \nThe results array will be in the same order as the original.\n\n\n## Utils\n\n<a name="memoize" />\n### memoize(fn, [hasher])\n\nCaches the results of an `async` function. When creating a hash to store function\nresults against, the callback is omitted from the hash and an optional hash\nfunction can be used.\n\nThe cache of results is exposed as the `memo` property of the function returned\nby `memoize`.\n\n__Arguments__\n\n* `fn` - The function to proxy and cache results from.\n* `hasher` - Tn optional function for generating a custom hash for storing\n  results. It has all the arguments applied to it apart from the callback, and\n  must be synchronous.\n\n__Example__\n\n```js\nvar slow_fn = function (name, callback) {\n    // do something\n    callback(null, result);\n};\nvar fn = async.memoize(slow_fn);\n\n// fn can now be used as if it were slow_fn\nfn(\'some name\', function () {\n    // callback\n});\n```\n\n<a name="unmemoize" />\n### unmemoize(fn)\n\nUndoes a [`memoize`](#memoize)d function, reverting it to the original, unmemoized\nform. Handy for testing.\n\n__Arguments__\n\n* `fn` - the memoized function\n\n<a name="log" />\n### log(function, arguments)\n\nLogs the result of an `async` function to the `console`. Only works in Node.js or\nin browsers that support `console.log` and `console.error` (such as FF and Chrome).\nIf multiple arguments are returned from the async function, `console.log` is\ncalled on each argument in order.\n\n__Arguments__\n\n* `function` - The function you want to eventually apply all arguments to.\n* `arguments...` - Any number of arguments to apply to the function.\n\n__Example__\n\n```js\nvar hello = function(name, callback){\n    setTimeout(function(){\n        callback(null, \'hello \' + name);\n    }, 1000);\n};\n```\n```js\nnode> async.log(hello, \'world\');\n\'hello world\'\n```\n\n---------------------------------------\n\n<a name="dir" />\n### dir(function, arguments)\n\nLogs the result of an `async` function to the `console` using `console.dir` to\ndisplay the properties of the resulting object. Only works in Node.js or\nin browsers that support `console.dir` and `console.error` (such as FF and Chrome).\nIf multiple arguments are returned from the async function, `console.dir` is\ncalled on each argument in order.\n\n__Arguments__\n\n* `function` - The function you want to eventually apply all arguments to.\n* `arguments...` - Any number of arguments to apply to the function.\n\n__Example__\n\n```js\nvar hello = function(name, callback){\n    setTimeout(function(){\n        callback(null, {hello: name});\n    }, 1000);\n};\n```\n```js\nnode> async.dir(hello, \'world\');\n{hello: \'world\'}\n```\n\n---------------------------------------\n\n<a name="noConflict" />\n### noConflict()\n\nChanges the value of `async` back to its original value, returning a reference to the\n`async` object.\n',
+617 silly install resolved     readmeFilename: 'README.md',
+617 silly install resolved     homepage: 'https://github.com/caolan/async',
+617 silly install resolved     _id: 'async@0.9.0',
+617 silly install resolved     _from: 'async@>=0.9.0 <0.10.0' },
+617 silly install resolved   { name: 'gulp-changed',
+617 silly install resolved     version: '1.2.1',
+617 silly install resolved     description: 'Only pass through changed files',
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git+https://github.com/sindresorhus/gulp-changed.git' },
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Sindre Sorhus',
+617 silly install resolved        email: 'sindresorhus@gmail.com',
+617 silly install resolved        url: 'http://sindresorhus.com' },
+617 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+617 silly install resolved     engines: { node: '>=0.10.0' },
+617 silly install resolved     scripts: { test: 'mocha' },
+617 silly install resolved     files: [ 'index.js' ],
+617 silly install resolved     keywords:
+617 silly install resolved      [ 'gulpplugin',
+617 silly install resolved        'file',
+617 silly install resolved        'files',
+617 silly install resolved        'changed',
+617 silly install resolved        'newer',
+617 silly install resolved        'modified',
+617 silly install resolved        'modification',
+617 silly install resolved        'updated',
+617 silly install resolved        'time',
+617 silly install resolved        'mtime',
+617 silly install resolved        'stat',
+617 silly install resolved        'cache',
+617 silly install resolved        'cached',
+617 silly install resolved        'passthrough' ],
+617 silly install resolved     dependencies: { 'gulp-util': '^3.0.0', through2: '^0.6.1' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { 'concat-stream': '^1.4.6',
+617 silly install resolved        gulp: '^3.0.0',
+617 silly install resolved        mocha: '*',
+617 silly install resolved        rimraf: '^2.2.6' },
+617 silly install resolved     gitHead: '7049c7e33a8210e64bf79492ea8fe6656518fc59',
+617 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/gulp-changed/issues' },
+617 silly install resolved     homepage: 'https://github.com/sindresorhus/gulp-changed',
+617 silly install resolved     _id: 'gulp-changed@1.2.1',
+617 silly install resolved     _shasum: '862074b3a7e98b02b9b4dec2b79392b8cdc7afbd',
+617 silly install resolved     _from: 'gulp-changed@>=1.1.1 <2.0.0',
+617 silly install resolved     _npmVersion: '1.4.28',
+617 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '862074b3a7e98b02b9b4dec2b79392b8cdc7afbd',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-changed/-/gulp-changed-1.2.1.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-changed/-/gulp-changed-1.2.1.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'fs-extra',
+617 silly install resolved     version: '0.13.0',
+617 silly install resolved     description: 'fs-extra contains methods that aren\'t included in the vanilla Node.js fs package. Such as mkdir -p, cp -r, and rm -rf.',
+617 silly install resolved     homepage: 'https://github.com/jprichardson/node-fs-extra',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git+https://github.com/jprichardson/node-fs-extra.git' },
+617 silly install resolved     keywords:
+617 silly install resolved      [ 'fs',
+617 silly install resolved        'file',
+617 silly install resolved        'file system',
+617 silly install resolved        'copy',
+617 silly install resolved        'directory',
+617 silly install resolved        'extra',
+617 silly install resolved        'mkdirp',
+617 silly install resolved        'mkdir',
+617 silly install resolved        'mkdirs',
+617 silly install resolved        'recursive',
+617 silly install resolved        'json',
+617 silly install resolved        'read',
+617 silly install resolved        'write',
+617 silly install resolved        'extra',
+617 silly install resolved        'delete',
+617 silly install resolved        'remove',
+617 silly install resolved        'touch',
+617 silly install resolved        'create',
+617 silly install resolved        'text',
+617 silly install resolved        'output',
+617 silly install resolved        'move' ],
+617 silly install resolved     author: { name: 'JP Richardson', email: 'jprichardson@gmail.com' },
+617 silly install resolved     licenses: [ [Object] ],
+617 silly install resolved     dependencies: { ncp: '^1.0.1', jsonfile: '^2.0.0', rimraf: '^2.2.8' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { mocha: '*',
+617 silly install resolved        testutil: '^0.7.0',
+617 silly install resolved        'secure-random': '^1.1.1',
+617 silly install resolved        'mock-fs': '^2.3.2' },
+617 silly install resolved     main: './lib/index',
+617 silly install resolved     scripts: { test: 'mocha test' },
+617 silly install resolved     gitHead: '760efd6c2cd75c598dc59c7095728e4cad385128',
+617 silly install resolved     bugs: { url: 'https://github.com/jprichardson/node-fs-extra/issues' },
+617 silly install resolved     _id: 'fs-extra@0.13.0',
+617 silly install resolved     _shasum: 'dcafc10f2cb5184f2360b5ffff06267370539433',
+617 silly install resolved     _from: 'fs-extra@>=0.13.0 <0.14.0',
+617 silly install resolved     _npmVersion: '2.1.11',
+617 silly install resolved     _nodeVersion: '0.10.26',
+617 silly install resolved     _npmUser: { name: 'jp', email: 'jprichardson@gmail.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: 'dcafc10f2cb5184f2360b5ffff06267370539433',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/fs-extra/-/fs-extra-0.13.0.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/fs-extra/-/fs-extra-0.13.0.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp',
+617 silly install resolved     description: 'The streaming build system',
+617 silly install resolved     version: '3.8.11',
+617 silly install resolved     homepage: 'http://gulpjs.com',
+617 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/gulpjs/gulp.git' },
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Fractal',
+617 silly install resolved        email: 'contact@wearefractal.com',
+617 silly install resolved        url: 'http://wearefractal.com/' },
+617 silly install resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+617 silly install resolved     files: [ 'index.js', 'lib', 'bin', 'completion' ],
+617 silly install resolved     bin: { gulp: './bin/gulp.js' },
+617 silly install resolved     man: [ 'gulp.1' ],
+617 silly install resolved     dependencies:
+617 silly install resolved      { archy: '^1.0.0',
+617 silly install resolved        chalk: '^0.5.0',
+617 silly install resolved        deprecated: '^0.0.1',
+617 silly install resolved        'gulp-util': '^3.0.0',
+617 silly install resolved        interpret: '^0.3.2',
+617 silly install resolved        liftoff: '^2.0.1',
+617 silly install resolved        minimist: '^1.1.0',
+617 silly install resolved        orchestrator: '^0.3.0',
+617 silly install resolved        'pretty-hrtime': '^0.2.0',
+617 silly install resolved        semver: '^4.1.0',
+617 silly install resolved        tildify: '^1.0.0',
+617 silly install resolved        v8flags: '^2.0.2',
+617 silly install resolved        'vinyl-fs': '^0.3.0' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { coveralls: '^2.7.0',
+617 silly install resolved        'graceful-fs': '^3.0.0',
+617 silly install resolved        istanbul: '^0.3.0',
+617 silly install resolved        jshint: '^2.5.0',
+617 silly install resolved        'jshint-stylish': '^1.0.0',
+617 silly install resolved        'marked-man': '^0.1.3',
+617 silly install resolved        mkdirp: '^0.5.0',
+617 silly install resolved        mocha: '^2.0.1',
+617 silly install resolved        'mocha-lcov-reporter': '^0.0.1',
+617 silly install resolved        q: '^1.0.0',
+617 silly install resolved        rimraf: '^2.2.5',
+617 silly install resolved        should: '^4.0.0' },
+617 silly install resolved     scripts:
+617 silly install resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+617 silly install resolved        lint: 'jshint lib bin index.js --reporter node_modules/jshint-stylish/stylish.js --exclude node_modules',
+617 silly install resolved        test: 'npm run-script lint && mocha --reporter spec',
+617 silly install resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+617 silly install resolved     engineStrict: true,
+617 silly install resolved     engines: { node: '>= 0.9' },
+617 silly install resolved     licenses: [ [Object] ],
+617 silly install resolved     gitHead: '84df40b0faabc2b61d576154fd1145e2146377ca',
+617 silly install resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+617 silly install resolved     _id: 'gulp@3.8.11',
+617 silly install resolved     _shasum: 'd557e0a7283eb4136491969b0497767972f1d28a',
+617 silly install resolved     _from: 'gulp@>=3.8.10 <4.0.0',
+617 silly install resolved     _npmVersion: '2.5.1',
+617 silly install resolved     _nodeVersion: '0.12.0',
+617 silly install resolved     _npmUser: { name: 'phated', email: 'blaine@iceddev.com' },
+617 silly install resolved     maintainers: [ [Object], [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: 'd557e0a7283eb4136491969b0497767972f1d28a',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp-load-plugins',
+617 silly install resolved     version: '0.8.1',
+617 silly install resolved     description: 'Automatically load any gulp plugins in your package.json',
+617 silly install resolved     scripts: { test: 'mocha' },
+617 silly install resolved     files: [ 'index.js' ],
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git+https://github.com/jackfranklin/gulp-load-plugins.git' },
+617 silly install resolved     keywords: [ 'gulpfriendly', 'gulp', 'require', 'load', 'plugins' ],
+617 silly install resolved     author: { name: 'Jack Franklin' },
+617 silly install resolved     contributors:
+617 silly install resolved      [ [Object],
+617 silly install resolved        [Object],
+617 silly install resolved        [Object],
+617 silly install resolved        [Object],
+617 silly install resolved        [Object],
+617 silly install resolved        [Object],
+617 silly install resolved        [Object] ],
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     dependencies: { 'findup-sync': '^0.2.1', multimatch: '2.0.0' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { jshint: '^2.5.1',
+617 silly install resolved        mocha: '^2.1.0',
+617 silly install resolved        proxyquire: '^1.0.1',
+617 silly install resolved        sinon: '^1.9.1' },
+617 silly install resolved     gitHead: 'f839d0da4c0a01b2ccb574b70d70d93f92335188',
+617 silly install resolved     bugs: { url: 'https://github.com/jackfranklin/gulp-load-plugins/issues' },
+617 silly install resolved     homepage: 'https://github.com/jackfranklin/gulp-load-plugins',
+617 silly install resolved     _id: 'gulp-load-plugins@0.8.1',
+617 silly install resolved     _shasum: '0a8261d059dfddc918fda406c8232e72fa34d2ea',
+617 silly install resolved     _from: 'gulp-load-plugins@>=0.8.0 <0.9.0',
+617 silly install resolved     _npmVersion: '2.6.0',
+617 silly install resolved     _nodeVersion: '0.10.36',
+617 silly install resolved     _npmUser: { name: 'jackfranklin', email: 'jack@jackfranklin.net' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '0a8261d059dfddc918fda406c8232e72fa34d2ea',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-load-plugins/-/gulp-load-plugins-0.8.1.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-load-plugins/-/gulp-load-plugins-0.8.1.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'del',
+617 silly install resolved     version: '1.1.1',
+617 silly install resolved     description: 'Delete files/folders using globs',
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git+https://github.com/sindresorhus/del.git' },
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Sindre Sorhus',
+617 silly install resolved        email: 'sindresorhus@gmail.com',
+617 silly install resolved        url: 'http://sindresorhus.com' },
+617 silly install resolved     engines: { node: '>=0.10.0' },
+617 silly install resolved     scripts: { test: 'mocha' },
+617 silly install resolved     files: [ 'index.js' ],
+617 silly install resolved     keywords:
+617 silly install resolved      [ 'delete',
+617 silly install resolved        'del',
+617 silly install resolved        'remove',
+617 silly install resolved        'destroy',
+617 silly install resolved        'trash',
+617 silly install resolved        'unlink',
+617 silly install resolved        'clean',
+617 silly install resolved        'cleaning',
+617 silly install resolved        'cleanup',
+617 silly install resolved        'rm',
+617 silly install resolved        'rmrf',
+617 silly install resolved        'rimraf',
+617 silly install resolved        'rmdir',
+617 silly install resolved        'glob',
+617 silly install resolved        'gulpfriendly',
+617 silly install resolved        'file',
+617 silly install resolved        'files',
+617 silly install resolved        'folder',
+617 silly install resolved        'dir',
+617 silly install resolved        'directory',
+617 silly install resolved        'fs',
+617 silly install resolved        'filesystem' ],
+617 silly install resolved     dependencies:
+617 silly install resolved      { 'each-async': '^1.0.0',
+617 silly install resolved        globby: '^1.0.0',
+617 silly install resolved        'is-path-cwd': '^1.0.0',
+617 silly install resolved        'is-path-in-cwd': '^1.0.0',
+617 silly install resolved        'object-assign': '^2.0.0',
+617 silly install resolved        rimraf: '^2.2.8' },
+617 silly install resolved     devDependencies: { 'fs-extra': '^0.12.0', mocha: '*' },
+617 silly install resolved     gitHead: 'a4f76762c2099cd3606e37a706bfca8110daf099',
+617 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/del/issues' },
+617 silly install resolved     homepage: 'https://github.com/sindresorhus/del',
+617 silly install resolved     _id: 'del@1.1.1',
+617 silly install resolved     _shasum: 'efe11301d1113894c20336a28c08644d15668ad1',
+617 silly install resolved     _from: 'del@>=1.1.1 <2.0.0',
+617 silly install resolved     _npmVersion: '2.1.5',
+617 silly install resolved     _nodeVersion: '0.10.32',
+617 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: 'efe11301d1113894c20336a28c08644d15668ad1',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/del/-/del-1.1.1.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/del/-/del-1.1.1.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp-debug',
+617 silly install resolved     version: '2.0.1',
+617 silly install resolved     description: 'Debug vinyl file streams to see what files are run through your gulp pipeline',
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git+https://github.com/sindresorhus/gulp-debug.git' },
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Sindre Sorhus',
+617 silly install resolved        email: 'sindresorhus@gmail.com',
+617 silly install resolved        url: 'http://sindresorhus.com' },
+617 silly install resolved     engines: { node: '>=0.10.0' },
+617 silly install resolved     scripts: { test: 'mocha' },
+617 silly install resolved     files: [ 'index.js' ],
+617 silly install resolved     keywords:
+617 silly install resolved      [ 'gulpplugin',
+617 silly install resolved        'debug',
+617 silly install resolved        'debugging',
+617 silly install resolved        'inspect',
+617 silly install resolved        'log',
+617 silly install resolved        'logger',
+617 silly install resolved        'vinyl',
+617 silly install resolved        'file',
+617 silly install resolved        'inspect',
+617 silly install resolved        'fs' ],
+617 silly install resolved     dependencies:
+617 silly install resolved      { chalk: '^1.0.0',
+617 silly install resolved        'gulp-util': '^3.0.0',
+617 silly install resolved        'object-assign': '^2.0.0',
+617 silly install resolved        'stringify-object': '^1.0.0',
+617 silly install resolved        through2: '^0.6.1',
+617 silly install resolved        tildify: '^1.0.0' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { gulp: '^3.8.10',
+617 silly install resolved        mocha: '*',
+617 silly install resolved        proxyquire: '^1.0.1',
+617 silly install resolved        sinon: '^1.9.1',
+617 silly install resolved        'strip-ansi': '^2.0.0' },
+617 silly install resolved     gitHead: '4ae9caa6e72488eb66cae209d36a9624c11552e2',
+617 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/gulp-debug/issues' },
+617 silly install resolved     homepage: 'https://github.com/sindresorhus/gulp-debug',
+617 silly install resolved     _id: 'gulp-debug@2.0.1',
+617 silly install resolved     _shasum: 'b0e900b538bd5c295ccd737419c10e46ba06ba76',
+617 silly install resolved     _from: 'gulp-debug@>=2.0.0 <3.0.0',
+617 silly install resolved     _npmVersion: '2.5.1',
+617 silly install resolved     _nodeVersion: '0.12.0',
+617 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: 'b0e900b538bd5c295ccd737419c10e46ba06ba76',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-debug/-/gulp-debug-2.0.1.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-debug/-/gulp-debug-2.0.1.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp-plumber',
+617 silly install resolved     version: '0.6.6',
+617 silly install resolved     description: 'Prevent pipe breaking caused by errors from gulp plugins',
+617 silly install resolved     keywords: [ 'gulpplugin' ],
+617 silly install resolved     homepage: 'https://github.com/floatdrop/gulp-plumber',
+617 silly install resolved     bugs: { url: 'https://github.com/floatdrop/gulp-plumber/issues' },
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Vsevolod Strukchinsky',
+617 silly install resolved        email: 'floatdrop@gmail.com',
+617 silly install resolved        url: 'https://github.com/floatdrop' },
+617 silly install resolved     main: './index.js',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git://github.com/floatdrop/gulp-plumber.git' },
+617 silly install resolved     scripts:
+617 silly install resolved      { test: 'istanbul test _mocha --report html -- test/*.js --reporter spec',
+617 silly install resolved        coveralls: 'istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage' },
+617 silly install resolved     dependencies: { 'gulp-util': '~3', through2: '~0.6' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { mocha: '~1.21.4',
+617 silly install resolved        coveralls: '~2.11.1',
+617 silly install resolved        'mocha-lcov-reporter': '0.0.1',
+617 silly install resolved        istanbul: '~0.3.0',
+617 silly install resolved        should: '~4.0.4',
+617 silly install resolved        'event-stream': '~3.1.7',
+617 silly install resolved        'gulp-mocha': '~1.0.0',
+617 silly install resolved        'gulp-watch': '~0.6.9',
+617 silly install resolved        gulp: '~3',
+617 silly install resolved        'gulp-grep-stream': '0.0.2',
+617 silly install resolved        through: '~2.3.4' },
+617 silly install resolved     engines: { node: '>=0.10', npm: '>=1.2.10' },
+617 silly install resolved     licenses: [ [Object] ],
+617 silly install resolved     _id: 'gulp-plumber@0.6.6',
+617 silly install resolved     _shasum: '9f9846a513c70d03216ce7a2a8ce6fd5a3fc3175',
+617 silly install resolved     _from: 'gulp-plumber@>=0.6.6 <0.7.0',
+617 silly install resolved     _npmVersion: '1.4.9',
+617 silly install resolved     _npmUser: { name: 'floatdrop', email: 'floatdrop@gmail.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '9f9846a513c70d03216ce7a2a8ce6fd5a3fc3175',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-plumber/-/gulp-plumber-0.6.6.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-plumber/-/gulp-plumber-0.6.6.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'inquirer',
+617 silly install resolved     version: '0.8.3',
+617 silly install resolved     description: 'A collection of common interactive command line user interfaces.',
+617 silly install resolved     main: 'lib/inquirer.js',
+617 silly install resolved     scripts: { test: 'grunt --verbose' },
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git+https://github.com/SBoudrias/Inquirer.js.git' },
+617 silly install resolved     keywords: [ 'command', 'prompt', 'stdin', 'cli', 'tty', 'menu' ],
+617 silly install resolved     author: { name: 'Simon Boudrias', email: 'admin@simonboudrias.com' },
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     files: [ 'lib' ],
+617 silly install resolved     dependencies:
+617 silly install resolved      { 'ansi-regex': '^1.1.1',
+617 silly install resolved        chalk: '^1.0.0',
+617 silly install resolved        'cli-width': '^1.0.1',
+617 silly install resolved        figures: '^1.3.5',
+617 silly install resolved        lodash: '^3.3.1',
+617 silly install resolved        readline2: '^0.1.1',
+617 silly install resolved        rx: '^2.4.3',
+617 silly install resolved        through: '^2.3.6' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { chai: '^2.1.2',
+617 silly install resolved        cmdify: '^0.0.4',
+617 silly install resolved        grunt: '^0.4.1',
+617 silly install resolved        'grunt-cli': '^0.1.8',
+617 silly install resolved        'grunt-contrib-jshint': '^0.11.1',
+617 silly install resolved        'grunt-mocha-test': '^0.10.2',
+617 silly install resolved        mocha: '^2.2.1',
+617 silly install resolved        mockery: '^1.4.0',
+617 silly install resolved        sinon: '^1.12.1' },
+617 silly install resolved     gitHead: '599c666c96fe5f9ef18e0978aba50e3b266f28da',
+617 silly install resolved     bugs: { url: 'https://github.com/SBoudrias/Inquirer.js/issues' },
+617 silly install resolved     homepage: 'https://github.com/SBoudrias/Inquirer.js',
+617 silly install resolved     _id: 'inquirer@0.8.3',
+617 silly install resolved     _shasum: 'aa371cbd079edda05e8019f4e07666f7470f3749',
+617 silly install resolved     _from: 'inquirer@>=0.8.0 <0.9.0',
+617 silly install resolved     _npmVersion: '2.5.1',
+617 silly install resolved     _nodeVersion: '0.10.32',
+617 silly install resolved     _npmUser: { name: 'sboudrias', email: 'admin@simonboudrias.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: 'aa371cbd079edda05e8019f4e07666f7470f3749',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/inquirer/-/inquirer-0.8.3.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/inquirer/-/inquirer-0.8.3.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'liferay-theme-mixins',
+617 silly install resolved     version: '6.2.1',
+617 silly install resolved     description: 'The base styled theme structure for Liferay themes',
+617 silly install resolved     main: 'index.js',
+617 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+617 silly install resolved     keywords: [ 'liferay', 'theme' ],
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Nate Cavanaugh',
+617 silly install resolved        email: 'nathan.cavanaugh@liferay.com',
+617 silly install resolved        url: 'https://github.com/natecavanaugh' },
+617 silly install resolved     contributors: [ [Object] ],
+617 silly install resolved     license: 'LGPL',
+617 silly install resolved     gitHead: '9f53454a0498d1b1b23637b19a9f5f378494d178',
+617 silly install resolved     _id: 'liferay-theme-mixins@6.2.1',
+617 silly install resolved     _shasum: '9be7f292cee2b109e92a23dfa887412d0de98e1a',
+617 silly install resolved     _from: 'liferay-theme-mixins@>=6.2.0 <7.0.0',
+617 silly install resolved     _npmVersion: '2.1.14',
+617 silly install resolved     _nodeVersion: '0.10.34',
+617 silly install resolved     _npmUser: { name: 'natecavanaugh', email: 'nate@shift22.com' },
+617 silly install resolved     maintainers: [ [Object], [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '9be7f292cee2b109e92a23dfa887412d0de98e1a',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/liferay-theme-mixins/-/liferay-theme-mixins-6.2.1.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/liferay-theme-mixins/-/liferay-theme-mixins-6.2.1.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'liferay-theme-styled',
+617 silly install resolved     version: '6.2.1',
+617 silly install resolved     description: 'The base styled theme structure for Liferay themes',
+617 silly install resolved     main: 'index.js',
+617 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+617 silly install resolved     keywords: [ 'liferay', 'theme' ],
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Nate Cavanaugh',
+617 silly install resolved        email: 'nathan.cavanaugh@liferay.com',
+617 silly install resolved        url: 'https://github.com/natecavanaugh' },
+617 silly install resolved     contributors: [ [Object] ],
+617 silly install resolved     license: 'LGPL',
+617 silly install resolved     gitHead: '828e6e4a32745594ba5664efa1581590a0775606',
+617 silly install resolved     _id: 'liferay-theme-styled@6.2.1',
+617 silly install resolved     _shasum: '73649a630d6106a797b9bb0b78f947c749995650',
+617 silly install resolved     _from: 'liferay-theme-styled@>=6.2.0 <7.0.0',
+617 silly install resolved     _npmVersion: '2.1.14',
+617 silly install resolved     _nodeVersion: '0.10.34',
+617 silly install resolved     _npmUser: { name: 'natecavanaugh', email: 'nate@shift22.com' },
+617 silly install resolved     maintainers: [ [Object], [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '73649a630d6106a797b9bb0b78f947c749995650',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/liferay-theme-styled/-/liferay-theme-styled-6.2.1.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/liferay-theme-styled/-/liferay-theme-styled-6.2.1.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp-storage',
+617 silly install resolved     version: '1.0.6',
+617 silly install resolved     description: 'A plugin for Gulp',
+617 silly install resolved     keywords:
+617 silly install resolved      [ 'gulpplugin',
+617 silly install resolved        'gulp',
+617 silly install resolved        'config',
+617 silly install resolved        'sorage',
+617 silly install resolved        'util',
+617 silly install resolved        'gulp-util',
+617 silly install resolved        'json',
+617 silly install resolved        'configuration' ],
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Joel Cox',
+617 silly install resolved        email: 'joelcox@hisimagination.com',
+617 silly install resolved        url: 'https://github.com/joelcoxokc' },
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git://github.com/JoelCoxOKC/gulp-storage.git' },
+617 silly install resolved     scripts:
+617 silly install resolved      { test: 'istanbul test _mocha --report html -- test/*.js --reporter spec',
+617 silly install resolved        coveralls: 'istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage' },
+617 silly install resolved     dependencies:
+617 silly install resolved      { gulp: '^3.8.9',
+617 silly install resolved        'gulp-util': '^2.2.20',
+617 silly install resolved        lodash: '^2.4.1',
+617 silly install resolved        through2: '*' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { mocha: '*',
+617 silly install resolved        coveralls: '*',
+617 silly install resolved        'mocha-lcov-reporter': '*',
+617 silly install resolved        istanbul: '*',
+617 silly install resolved        'event-stream': '*',
+617 silly install resolved        should: '~2.1.0' },
+617 silly install resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     bugs: { url: 'https://github.com/JoelCoxOKC/gulp-storage/issues' },
+617 silly install resolved     homepage: 'https://github.com/JoelCoxOKC/gulp-storage',
+617 silly install resolved     main: 'index.js',
+617 silly install resolved     directories: { test: 'test' },
+617 silly install resolved     gitHead: '4b444111cde49b5d3cd11a54482500ddeae39e16',
+617 silly install resolved     _id: 'gulp-storage@1.0.6',
+617 silly install resolved     _shasum: '1668ee39a2bcf3beef6d2b6b7d6d6d3345f412d7',
+617 silly install resolved     _from: 'gulp-storage@>=1.0.6 <2.0.0',
+617 silly install resolved     _npmVersion: '1.4.23',
+617 silly install resolved     _npmUser: { name: 'joelcoxokc', email: 'joelcox@hisimagination.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '1668ee39a2bcf3beef6d2b6b7d6d6d3345f412d7',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-storage/-/gulp-storage-1.0.6.tgz' },
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-storage/-/gulp-storage-1.0.6.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp-war',
+617 silly install resolved     version: '0.0.1',
+617 silly install resolved     description: 'A Java WAR file generator plugin for Gulp',
+617 silly install resolved     keywords: [ 'gulpplugin', 'war' ],
+617 silly install resolved     homepage: 'https://github.com/ScottWeinstein/gulp-war',
+617 silly install resolved     bugs: { url: 'https://github.com/ScottWeinstein/gulp-war/issues' },
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Scott Weinstein',
+617 silly install resolved        email: 'scottwww@squidnet.com',
+617 silly install resolved        url: 'https://github.com/ScottWeinstein' },
+617 silly install resolved     main: './index.js',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git://github.com/ScottWeinstein/gulp-war.git' },
+617 silly install resolved     scripts: { test: 'mocha' },
+617 silly install resolved     dependencies: { 'event-stream': '*', through: '~2.3.4', 'gulp-util': '~2.2.9' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { mocha: '~1.14.0',
+617 silly install resolved        should: '~2.1.0',
+617 silly install resolved        'gulp-util': '~2.2.0',
+617 silly install resolved        gulp: '~3.3.1',
+617 silly install resolved        'gulp-zip': '~0.1.0' },
+617 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     _id: 'gulp-war@0.0.1',
+617 silly install resolved     _shasum: '69e20c9bed980673c07090ac3b657640a92c4c5c',
+617 silly install resolved     _from: 'gulp-war@0.0.1',
+617 silly install resolved     _npmVersion: '1.4.9',
+617 silly install resolved     _npmUser: { name: 'tromax', email: 'dominik.deren@live.com' },
+617 silly install resolved     maintainers: [ [Object], [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '69e20c9bed980673c07090ac3b657640a92c4c5c',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-war/-/gulp-war-0.0.1.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-war/-/gulp-war-0.0.1.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'lodash',
+617 silly install resolved     version: '2.4.2',
+617 silly install resolved     description: 'A utility library delivering consistency, customization, performance, & extras.',
+617 silly install resolved     homepage: 'http://lodash.com/',
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     main: 'dist/lodash.js',
+617 silly install resolved     keywords:
+617 silly install resolved      [ 'amd',
+617 silly install resolved        'browser',
+617 silly install resolved        'client',
+617 silly install resolved        'customize',
+617 silly install resolved        'functional',
+617 silly install resolved        'server',
+617 silly install resolved        'util' ],
+617 silly install resolved     author:
+617 silly install resolved      { name: 'John-David Dalton',
+617 silly install resolved        email: 'john.david.dalton@gmail.com',
+617 silly install resolved        url: 'http://allyoucanleet.com/' },
+617 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+617 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+617 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+617 silly install resolved     engines: [ 'node', 'rhino' ],
+617 silly install resolved     files:
+617 silly install resolved      [ 'LICENSE.txt',
+617 silly install resolved        'lodash.js',
+617 silly install resolved        'dist/lodash.js',
+617 silly install resolved        'dist/lodash.min.js',
+617 silly install resolved        'dist/lodash.compat.js',
+617 silly install resolved        'dist/lodash.compat.min.js',
+617 silly install resolved        'dist/lodash.underscore.js',
+617 silly install resolved        'dist/lodash.underscore.min.js' ],
+617 silly install resolved     jam: { main: 'dist/lodash.compat.js', include: [Object] },
+617 silly install resolved     volo: { type: 'directory', ignore: [Object] },
+617 silly install resolved     _id: 'lodash@2.4.2',
+617 silly install resolved     scripts: {},
+617 silly install resolved     _shasum: 'fadd834b9683073da179b3eae6d9c0d15053f73e',
+617 silly install resolved     _from: 'lodash@>=2.4.1 <3.0.0',
+617 silly install resolved     _npmVersion: '2.7.5',
+617 silly install resolved     _nodeVersion: '0.12.2',
+617 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+617 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: 'fadd834b9683073da179b3eae6d9c0d15053f73e',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-2.4.2.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'minimist',
+617 silly install resolved     version: '1.1.1',
+617 silly install resolved     description: 'parse argument options',
+617 silly install resolved     main: 'index.js',
+617 silly install resolved     devDependencies: { covert: '^1.0.0', tap: '~0.4.0', tape: '^3.5.0' },
+617 silly install resolved     scripts: { test: 'tap test/*.js', coverage: 'covert test/*.js' },
+617 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+617 silly install resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+617 silly install resolved     homepage: 'https://github.com/substack/minimist',
+617 silly install resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+617 silly install resolved     author:
+617 silly install resolved      { name: 'James Halliday',
+617 silly install resolved        email: 'mail@substack.net',
+617 silly install resolved        url: 'http://substack.net' },
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     gitHead: 'bc9d1c466541eb52ae85e6682a4b809f4c32fe1f',
+617 silly install resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+617 silly install resolved     _id: 'minimist@1.1.1',
+617 silly install resolved     _shasum: '1bc2bc71658cdca5712475684363615b0b4f695b',
+617 silly install resolved     _from: 'minimist@>=1.1.0 <2.0.0',
+617 silly install resolved     _npmVersion: '2.3.0',
+617 silly install resolved     _nodeVersion: '0.12.0',
+617 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '1bc2bc71658cdca5712475684363615b0b4f695b',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/minimist/-/minimist-1.1.1.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-1.1.1.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp-zip',
+617 silly install resolved     version: '2.0.3',
+617 silly install resolved     description: 'ZIP compress files',
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git+https://github.com/sindresorhus/gulp-zip.git' },
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Sindre Sorhus',
+617 silly install resolved        email: 'sindresorhus@gmail.com',
+617 silly install resolved        url: 'http://sindresorhus.com' },
+617 silly install resolved     engines: { node: '>=0.10.0' },
+617 silly install resolved     scripts: { test: 'mocha' },
+617 silly install resolved     files: [ 'index.js' ],
+617 silly install resolved     keywords:
+617 silly install resolved      [ 'gulpplugin',
+617 silly install resolved        'zip',
+617 silly install resolved        'archive',
+617 silly install resolved        'archiver',
+617 silly install resolved        'compress',
+617 silly install resolved        'compression',
+617 silly install resolved        'file' ],
+617 silly install resolved     dependencies:
+617 silly install resolved      { chalk: '^1.0.0',
+617 silly install resolved        'gulp-util': '^3.0.0',
+617 silly install resolved        jszip: '^2.4.0',
+617 silly install resolved        through2: '^0.6.1' },
+617 silly install resolved     devDependencies: { mocha: '*', gulp: '*' },
+617 silly install resolved     gitHead: 'c39f4da793fb9fd2ae547d9944e4fc99a85bd569',
+617 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/gulp-zip/issues' },
+617 silly install resolved     homepage: 'https://github.com/sindresorhus/gulp-zip',
+617 silly install resolved     _id: 'gulp-zip@2.0.3',
+617 silly install resolved     _shasum: '88ef116d3f15bd20afceac90165d1fc63f3c6e1f',
+617 silly install resolved     _from: 'gulp-zip@>=2.0.2 <3.0.0',
+617 silly install resolved     _npmVersion: '2.5.1',
+617 silly install resolved     _nodeVersion: '0.12.0',
+617 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '88ef116d3f15bd20afceac90165d1fc63f3c6e1f',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-zip/-/gulp-zip-2.0.3.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-zip/-/gulp-zip-2.0.3.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp-sourcemaps',
+617 silly install resolved     version: '1.5.2',
+617 silly install resolved     description: 'Source map support for Gulp.js',
+617 silly install resolved     homepage: 'http://github.com/floridoo/gulp-sourcemaps',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git://github.com/floridoo/gulp-sourcemaps.git' },
+617 silly install resolved     main: 'index.js',
+617 silly install resolved     scripts:
+617 silly install resolved      { test: 'jshint *.js test/*.js && faucet test/*.js',
+617 silly install resolved        tap: 'tape test/*.js',
+617 silly install resolved        cover: 'istanbul cover --dir reports/coverage tape test/*.js',
+617 silly install resolved        coveralls: 'istanbul cover tape test/*.js --report lcovonly && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+617 silly install resolved     keywords: [ 'gulpplugin', 'gulp', 'source maps', 'sourcemaps' ],
+617 silly install resolved     author: { name: 'Florian Reiterer', email: 'me@florianreiterer.com' },
+617 silly install resolved     license: 'ISC',
+617 silly install resolved     dependencies:
+617 silly install resolved      { 'convert-source-map': '^1.0.0',
+617 silly install resolved        'graceful-fs': '^3.0.5',
+617 silly install resolved        'strip-bom': '^1.0.0',
+617 silly install resolved        through2: '^0.6.3',
+617 silly install resolved        vinyl: '^0.4.6' },
+617 silly install resolved     devDependencies:
+617 silly install resolved      { jshint: '^2.6.0',
+617 silly install resolved        tape: '^3.5.0',
+617 silly install resolved        istanbul: '^0.3.6',
+617 silly install resolved        faucet: '0.0.1',
+617 silly install resolved        coveralls: '^2.11.2' },
+617 silly install resolved     files: [ 'index.js', 'package.json', 'README.md', 'LICENSE.md' ],
+617 silly install resolved     gitHead: '3ea10a690310e419f5c4d8a926d6dd464aef6dcc',
+617 silly install resolved     bugs: { url: 'https://github.com/floridoo/gulp-sourcemaps/issues' },
+617 silly install resolved     _id: 'gulp-sourcemaps@1.5.2',
+617 silly install resolved     _shasum: '796f6ff695a494215f3d3d66aa7ac853d7e73511',
+617 silly install resolved     _from: 'gulp-sourcemaps@>=1.2.8 <2.0.0',
+617 silly install resolved     _npmVersion: '1.4.28',
+617 silly install resolved     _npmUser: { name: 'floridoo', email: 'florian.reiterer@gmail.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '796f6ff695a494215f3d3d66aa7ac853d7e73511',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.5.2.tgz' },
+617 silly install resolved   { name: 'liferay-theme-unstyled',
+617 silly install resolved     version: '6.2.2',
+617 silly install resolved     description: 'The base theme structure for Liferay themes',
+617 silly install resolved     main: 'index.js',
+617 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+617 silly install resolved     keywords: [ 'liferay', 'theme' ],
+617 silly install resolved     author:
+617 silly install resolved      { name: 'Nate Cavanaugh',
+617 silly install resolved        email: 'nathan.cavanaugh@liferay.com',
+617 silly install resolved        url: 'https://github.com/natecavanaugh' },
+617 silly install resolved     contributors: [ [Object] ],
+617 silly install resolved     license: 'LGPL',
+617 silly install resolved     gitHead: 'b920c0e832a0966fac7d13794a74ba51961d3b9a',
+617 silly install resolved     _id: 'liferay-theme-unstyled@6.2.2',
+617 silly install resolved     _shasum: '66403f9e2b03a25c6f3fd6502e889a48095c6e22',
+617 silly install resolved     _from: 'liferay-theme-unstyled@>=6.2.0 <7.0.0',
+617 silly install resolved     _npmVersion: '2.5.1',
+617 silly install resolved     _nodeVersion: '0.12.0',
+617 silly install resolved     _npmUser: { name: 'rframpton', email: 'rob.g.frampton@gmail.com' },
+617 silly install resolved     maintainers: [ [Object], [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '66403f9e2b03a25c6f3fd6502e889a48095c6e22',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/liferay-theme-unstyled/-/liferay-theme-unstyled-6.2.2.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/liferay-theme-unstyled/-/liferay-theme-unstyled-6.2.2.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'gulp-ruby-sass',
+617 silly install resolved     version: '0.7.1',
+617 silly install resolved     description: 'Compile Sass to CSS with Ruby Sass',
+617 silly install resolved     license: 'MIT',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git://github.com/sindresorhus/gulp-ruby-sass.git' },
+617 silly install resolved     maintainers: [ [Object], [Object] ],
+617 silly install resolved     engines: { node: '>=0.10.0' },
+617 silly install resolved     scripts: { test: 'mocha' },
+617 silly install resolved     files: [ 'index.js' ],
+617 silly install resolved     keywords:
+617 silly install resolved      [ 'gulpplugin',
+617 silly install resolved        'scss',
+617 silly install resolved        'sass',
+617 silly install resolved        'css',
+617 silly install resolved        'compile',
+617 silly install resolved        'preprocessor',
+617 silly install resolved        'style',
+617 silly install resolved        'ruby',
+617 silly install resolved        'source-map',
+617 silly install resolved        'source-maps',
+617 silly install resolved        'sourcemap',
+617 silly install resolved        'sourcemaps' ],
+617 silly install resolved     dependencies:
+617 silly install resolved      { chalk: '^0.5.1',
+617 silly install resolved        dargs: '^0.1.0',
+617 silly install resolved        'each-async': '^0.1.3',
+617 silly install resolved        glob: '^4.0.2',
+617 silly install resolved        'gulp-intermediate': '3.0.1',
+617 silly install resolved        'gulp-util': '^3.0.0',
+617 silly install resolved        slash: '^0.1.3',
+617 silly install resolved        'win-spawn': '^2.0.0' },
+617 silly install resolved     devDependencies: { gulp: '^3.7.0', 'gulp-add': '0.0.1', mocha: '*' },
+617 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/gulp-ruby-sass/issues' },
+617 silly install resolved     homepage: 'https://github.com/sindresorhus/gulp-ruby-sass',
+617 silly install resolved     _id: 'gulp-ruby-sass@0.7.1',
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '2145485be6d848a89d86895317b6eaf865a97aab',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-ruby-sass/-/gulp-ruby-sass-0.7.1.tgz' },
+617 silly install resolved     _from: 'gulp-ruby-sass@>=0.7.1 <0.8.0',
+617 silly install resolved     _npmVersion: '1.4.3',
+617 silly install resolved     _npmUser: { name: 'robwierzbowski', email: 'hello@robwierzbowski.com' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _shasum: '2145485be6d848a89d86895317b6eaf865a97aab',
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-ruby-sass/-/gulp-ruby-sass-0.7.1.tgz',
+617 silly install resolved     readme: 'ERROR: No README data found!' },
+617 silly install resolved   { name: 'run-sequence',
+617 silly install resolved     description: 'Run a series of dependent gulp tasks in order',
+617 silly install resolved     version: '1.1.0',
+617 silly install resolved     homepage: 'https://github.com/OverZealous/run-sequence',
+617 silly install resolved     repository:
+617 silly install resolved      { type: 'git',
+617 silly install resolved        url: 'git://github.com/OverZealous/run-sequence.git' },
+617 silly install resolved     bugs: { url: 'https://github.com/OverZealous/run-sequence/issues' },
+617 silly install resolved     author: { name: 'Phil DeJarnett', url: 'http://overzealous.com/' },
+617 silly install resolved     main: './index.js',
+617 silly install resolved     keywords: [ 'gulpfriendly', 'pipe', 'sequence', 'gulp', 'orchestrator' ],
+617 silly install resolved     dependencies: { chalk: '*' },
+617 silly install resolved     devDependencies: { gulp: '*', mocha: '*', should: '*' },
+617 silly install resolved     scripts: { test: 'mocha --reporter spec' },
+617 silly install resolved     engines: { node: '>= 0.8.0' },
+617 silly install resolved     licenses: [ [Object] ],
+617 silly install resolved     gitHead: 'ae5be17897a7248c54c1224520aa6dde90558a18',
+617 silly install resolved     _id: 'run-sequence@1.1.0',
+617 silly install resolved     _shasum: '7de22eda0f6dc3131e4224b3b806fd2726b9fb0d',
+617 silly install resolved     _from: 'run-sequence@>=1.0.2 <2.0.0',
+617 silly install resolved     _npmVersion: '2.7.5',
+617 silly install resolved     _nodeVersion: '0.12.2',
+617 silly install resolved     _npmUser: { name: 'overzealous', email: 'phil@overzealous.com' },
+617 silly install resolved     maintainers: [ [Object] ],
+617 silly install resolved     dist:
+617 silly install resolved      { shasum: '7de22eda0f6dc3131e4224b3b806fd2726b9fb0d',
+617 silly install resolved        tarball: 'http://registry.npmjs.org/run-sequence/-/run-sequence-1.1.0.tgz' },
+617 silly install resolved     directories: {},
+617 silly install resolved     _resolved: 'https://registry.npmjs.org/run-sequence/-/run-sequence-1.1.0.tgz' } ]
+618 info install gulp-add-src@0.2.0 into /home/ryan/Documents/the-outdoors-life-theme
+619 info install gulp-rename@1.2.2 into /home/ryan/Documents/the-outdoors-life-theme
+620 info install async@0.9.0 into /home/ryan/Documents/the-outdoors-life-theme
+621 info install gulp-changed@1.2.1 into /home/ryan/Documents/the-outdoors-life-theme
+622 info install fs-extra@0.13.0 into /home/ryan/Documents/the-outdoors-life-theme
+623 info install gulp@3.8.11 into /home/ryan/Documents/the-outdoors-life-theme
+624 info install gulp-load-plugins@0.8.1 into /home/ryan/Documents/the-outdoors-life-theme
+625 info install del@1.1.1 into /home/ryan/Documents/the-outdoors-life-theme
+626 info install gulp-debug@2.0.1 into /home/ryan/Documents/the-outdoors-life-theme
+627 info install gulp-plumber@0.6.6 into /home/ryan/Documents/the-outdoors-life-theme
+628 info install inquirer@0.8.3 into /home/ryan/Documents/the-outdoors-life-theme
+629 info install liferay-theme-mixins@6.2.1 into /home/ryan/Documents/the-outdoors-life-theme
+630 info install liferay-theme-styled@6.2.1 into /home/ryan/Documents/the-outdoors-life-theme
+631 info install gulp-storage@1.0.6 into /home/ryan/Documents/the-outdoors-life-theme
+632 info install gulp-war@0.0.1 into /home/ryan/Documents/the-outdoors-life-theme
+633 info install lodash@2.4.2 into /home/ryan/Documents/the-outdoors-life-theme
+634 info install minimist@1.1.1 into /home/ryan/Documents/the-outdoors-life-theme
+635 info install gulp-zip@2.0.3 into /home/ryan/Documents/the-outdoors-life-theme
+636 info install gulp-sourcemaps@1.5.2 into /home/ryan/Documents/the-outdoors-life-theme
+637 info install liferay-theme-unstyled@6.2.2 into /home/ryan/Documents/the-outdoors-life-theme
+638 info install gulp-ruby-sass@0.7.1 into /home/ryan/Documents/the-outdoors-life-theme
+639 info install run-sequence@1.1.0 into /home/ryan/Documents/the-outdoors-life-theme
+640 info installOne gulp-add-src@0.2.0
+641 verbose installOne of gulp-add-src to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+642 info installOne gulp-rename@1.2.2
+643 verbose installOne of gulp-rename to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+644 info installOne async@0.9.0
+645 verbose installOne of async to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+646 info installOne gulp-changed@1.2.1
+647 verbose installOne of gulp-changed to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+648 info installOne fs-extra@0.13.0
+649 verbose installOne of fs-extra to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+650 info installOne gulp@3.8.11
+651 verbose installOne of gulp to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+652 info installOne gulp-load-plugins@0.8.1
+653 verbose installOne of gulp-load-plugins to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+654 info installOne del@1.1.1
+655 verbose installOne of del to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+656 info installOne gulp-debug@2.0.1
+657 verbose installOne of gulp-debug to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+658 info installOne gulp-plumber@0.6.6
+659 verbose installOne of gulp-plumber to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+660 info installOne inquirer@0.8.3
+661 verbose installOne of inquirer to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+662 info installOne liferay-theme-mixins@6.2.1
+663 verbose installOne of liferay-theme-mixins to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+664 info installOne liferay-theme-styled@6.2.1
+665 verbose installOne of liferay-theme-styled to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+666 info installOne gulp-storage@1.0.6
+667 verbose installOne of gulp-storage to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+668 info installOne gulp-war@0.0.1
+669 verbose installOne of gulp-war to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+670 info installOne lodash@2.4.2
+671 verbose installOne of lodash to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+672 info installOne minimist@1.1.1
+673 verbose installOne of minimist to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+674 info installOne gulp-zip@2.0.3
+675 verbose installOne of gulp-zip to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+676 info installOne gulp-sourcemaps@1.5.2
+677 verbose installOne of gulp-sourcemaps to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+678 info installOne liferay-theme-unstyled@6.2.2
+679 verbose installOne of liferay-theme-unstyled to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+680 info installOne gulp-ruby-sass@0.7.1
+681 verbose installOne of gulp-ruby-sass to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+682 info installOne run-sequence@1.1.0
+683 verbose installOne of run-sequence to /home/ryan/Documents/the-outdoors-life-theme not in flight; installing
+684 warn locking Error: EACCES, open '/home/ryan/.npm/_locks/gulp-add-src-0dac55eae3ac597a.lock'
+684 warn locking  /home/ryan/.npm/_locks/gulp-add-src-0dac55eae3ac597a.lock failed { [Error: EACCES, open '/home/ryan/.npm/_locks/gulp-add-src-0dac55eae3ac597a.lock']
+684 warn locking   errno: 3,
+684 warn locking   code: 'EACCES',
+684 warn locking   path: '/home/ryan/.npm/_locks/gulp-add-src-0dac55eae3ac597a.lock' }
+685 verbose stack Error: Attempt to unlock /home/ryan/Documents/the-outdoors-life-theme/node_modules/gulp-add-src, which hasn't been locked
+685 verbose stack     at unlock (/usr/lib/node_modules/npm/lib/utils/locker.js:66:11)
+685 verbose stack     at cb (/usr/lib/node_modules/npm/lib/install.js:1013:5)
+685 verbose stack     at /usr/lib/node_modules/npm/lib/install.js:1017:20
+685 verbose stack     at /usr/lib/node_modules/npm/lib/utils/locker.js:40:9
+685 verbose stack     at cb (/usr/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+685 verbose stack     at /usr/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+685 verbose stack     at Object.oncomplete (fs.js:107:15)
+686 verbose cwd /home/ryan/Documents/the-outdoors-life-theme
+687 error Linux 3.13.0-24-generic
+688 error argv "node" "/usr/bin/npm" "install"
+689 error node v0.10.25
+690 error npm  v2.8.4
+691 error Attempt to unlock /home/ryan/Documents/the-outdoors-life-theme/node_modules/gulp-add-src, which hasn't been locked
+692 error If you need help, you may report this error at:
+692 error     <https://github.com/npm/npm/issues>
+693 verbose exit [ 1, true ]
